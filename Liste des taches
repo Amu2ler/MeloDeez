@@ -1,14 +1,28 @@
-1) (SEMAINE 36) Recherche : 3 ou 4 pages pour inspi esthétique du site
-2) (SEMAINE 37) Fiche de présentation d'une entreprise
-3) (SEMAINE 37) Recherches concernant l’entreprise
-2) (SEMAINE 37) Questionnaire n°1 (à déposer sur Moodle au plus tard le 22/09 avant 10 h)
-3) (SEMAINE 40) Rapport
-4) (SEMAINE 39) Questionnaire n°2 (à déposer sur Moodle au plus tard le 6/10 avant 10 h)
-5) (SEMAINE 38) Site :
+SEMAINE 36 : Recherche : 3 ou 4 pages pour inspi esthétique du site
+
+SEMAINE 37 : Fiche de présentation d'une entreprise
+             Recherches concernant l’entreprise
+             Questionnaire n°1 (à déposer sur Moodle au plus tard le 22/09 avant 10 h)
+
+SEMAINE 38 Site :
       a) création du compte GitHub
       b) mise en ligne du menu + toutes les pages avec un minimum de contenu (bien indiquer l’auteur de chaque page)
-6) 
-7)
+
+SEMAINE 39 : Questionnaire n°2 (à déposer sur Moodle au plus tard le 6/10 avant 10 h)
+             Dépôt en double sur Moodle du rapport économique aux formats .odt et .pdf
+             Mettre sur Github, voire GitLab :
+                  - fichier “ods” àcompléter
+                  - Site web : page d’accueil + menu
+                  - Création d’une page index.html avec un menu et les liens sur toutes les autres pages
+                  - Readme.md à jour
+
+SEMAINE 40 : Rapport : Dépôt en double sur Moodle du rapport économique aux formats .odt et .pdf
+
+SEMAINE 41 :  Dépôt sur GitHub, GitLab et BitBucket :
+                  ● du site terminé
+                  ● d’un document attestant la réalisation des tests de validité sur le site W3C
+                  ● dans le fichier README.md, indiquer les auteurs de chaque page et des autres tâches
+             
 
 Où trouver infos ?
   Questionnaire 1 et 2 : https://moodle.univ-fcomte.fr/pluginfile.php/1743974/mod_resource/content/25/1_SA%C3%89%20S1-05-06_attentes%2C%20planning%2C%20bar%C3%A8me%2C%20etc.pdf
