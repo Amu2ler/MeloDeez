@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets.css">
     <meta charset="utf-8">
     <title>Économie Deezer</title>
   </head>
   <body>
     <h1>Système économique</h1>
-      <p></p>
-    <h2>Acteurs financiers</h2>
-    <h3>Futurs objectifs</h3>
+      <p>Deezer repose sur une economie simple : la vente d'abonnements premium ainsi que la rémuneration via des publicités ciblées qui défilent parfois entre les titres de vos musiques (seulement si votre compte n'a pas d'abonnement)</p>
+    <h1>Acteurs financiers</h1>
+    <p>Voici la liste des principaux actionnaires de Deezer :
+      <ol start="1" >
+       <li>Access Industries</li>
+       <li>Orange Participations</li>
+       <li>DC Music </li>
+       <li>Idinvest Partners</li>
+       <li>Monsieur Marhely Daniel</li>
+       <li>CM-CIC Capital Privé</li>
+       <li>Monsieur Niel Xavier</li>
+       </ol>
+
+    </p>
+    <h1>Futurs objectifs</h1>
+    <p>D'ici 2025, Deezer veut atteindre son point d'équilibre</p>
   </body>
+  <footer>Cette page est reédigée par Natan</footer>
 </html>
+
+
+
+body{
+	background-color: black ;
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+}
+footer{
+	marker-end: 100px;
+	margin-top: 1000px;
+}
