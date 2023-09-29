@@ -1,0 +1,58 @@
+.body{
+    background-color:black;
+    color: white; 
+    font-family: 'Ubuntu';
+}
+
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center; /* Centre les éléments du nav horizontalement */
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6600;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.deezertop {
+    display: flex;
+    justify-content: space-between;
+}
+.deezertop iframe {
+flex: 0 0 calc(50% - 20px); /* Ajustez la largeur et l'espace entre les widgets ici */
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixe le footer en bas /
+    bottom: 0; / Aligne le footer en bas de la page */
+}
