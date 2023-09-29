@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Le reste du CSS reste inchangé */
+
+.black-top {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+}
+    
+
+.logo-and-title h1 {
+    margin-left: 10px; /* Espacement entre le logo et le texte "MeloDeez" */
+}
+
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center; /* Centre les éléments du nav horizontalement */
+    width: 100%;
+    padding: 10px 0;
+}
+
+.language-button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    transition: color 0.3s;
+    margin-right: 20px; /* Espacement du bouton par rapport au dernier élément de la navigation */
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6600;
+}
+
+.language-button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    transition: color 0.3s;
+}
+
+.language-button:hover {
+    color: #000000;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-animation.gif'); /* Remplacez 'your-animation.gif' par le chemin de votre animation */
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.centered-block {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.centered-block img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.centered-block h2 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.centered-block p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixe le footer en bas */
+    bottom: 0; /* Aligne le footer en bas de la page */
+}
