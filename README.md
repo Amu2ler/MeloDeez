@@ -1,2 +1,10 @@
-# SA-_S1_05_06_Deezer
-Ceci est le dossier comprenant tout concernant le projet sur l'entreprise numérique francaise Deezer
+# MeloDeez
+
+UE : SAÉ S1. 05-06 Recueil des besoins & découverte de l'environnement économique et écologique
+
+Membres du groupe : 
+Muller Arthur
+Rose Mathéo
+BoucheNatan
+Richard Florian
+
