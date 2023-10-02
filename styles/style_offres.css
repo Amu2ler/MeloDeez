@@ -7,7 +7,7 @@
 .nav {
     background-color: #ffffff;
     display: flex;
-    justify-content: center; /* Centre les éléments du nav horizontalement */
+    justify-content: center; 
     width: 100%;
     padding: 10px 0;
 }
@@ -40,6 +40,18 @@ h1{
     font-size: xx-large;
 }
 
+.ancre{
+    display: center;
+    margin-left: 46%;
+    margin-top: 50px;
+
+}
+
+h2{
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
 .container_1:hover {
     scale: 1.02;
 }
@@ -49,7 +61,7 @@ h1{
     margin: auto;
     margin-top: 30px;
     width: 800px;
-    height: 260px;
+    height: 330px;
     border: 3px solid repeating-linear-gradient(rgb(128, 0, 113), rgb(81, 0, 255));
     border-radius: 25px;
     background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
@@ -57,29 +69,19 @@ h1{
     transition: scale 0.3s ease-in-out;
 }
 
-/*.offre-1, .offre-2, .offre-3, .offre-4 {
-    color: white;
-    display: center;
-    margin-left: 0px;
-    width: 200px;
-    height: 75px;
-    border: 3px solid white;
-    border-radius: 25px;
-} */
-
-.btn, .btn-2, .btn-3 ,.btn4 {
-    color: black;
+.btn{
     background-color: white;
     display: center;
-    width: 250px;
+    width: 350px;
     height: 85px;
-    border: 3px solid white;
+    border: 8px solid white;
     border-radius: 25px;
-    transition: scale 0.3s ease-in-out;
 }
-.btn:hover {
-    scale: 1.1;
+
+a[href]{
+    color: black;
 }
+
 
 .container_2:hover {
     scale: 1.02;
@@ -90,7 +92,7 @@ h1{
     margin: auto;
     margin-top: 30px;
     width: 800px;
-    height: 300px;
+    height: 365px;
     border: 0px solid orange;
     border-radius: 25px;
     background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70)) ;
@@ -107,7 +109,7 @@ h1{
     margin: auto;
     margin-top: 30spx;
     width: 800px;
-    height: 300px;
+    height: 365px;
     border: 0px solid purple;
     border-radius: 25px;
     background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
@@ -124,7 +126,7 @@ h1{
     margin: auto;
     margin-top: 30px;
     width: 800px;
-    height:300px;
+    height:365px;
     border: 0px solid orange;
     border-radius: 25px;
     background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70)) ;
@@ -132,11 +134,63 @@ h1{
     transition: scale 0.3s ease-in-out;
 }
 
-footer {
-    text-align: center;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 0;
+footer{
+    position: relative;
     width: 100%;
-    position: fixed;
+    background: #000000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   flex-wrap: wrap; 
+}
+
+footer .social_icon a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon a:hover{
+    transform: translateY(-10px)
+}
+
+footer p{
+    color:#fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.facebook{
+    width: 37px;
+    height: 37px;
+}
+
+.twitter{
+    width: 35px;
+    height: 35px;
+}
+
+.instagram{
+    width: 33px;
+    height: 33px;
+}
+
+.linkedin{
+    width: 27px;
+    height: 27px;
 }
