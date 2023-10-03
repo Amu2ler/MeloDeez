@@ -146,6 +146,11 @@ a[href]{
     padding-top: 50px;
 }
 
+.flow{
+    width:75%;
+    height:75%;
+}
+
 footer{
     position: relative;
     width: 100%;
