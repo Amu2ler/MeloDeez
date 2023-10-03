@@ -146,14 +146,11 @@ a[href]{
     padding-top: 50px;
 }
 
-.image-1{
-    float: left;
-}
-
 .texte-droite{
     display: inline-block;
     vertical-align: top;
     width: 500px;
+    float: right;
 }
 
 .flow{
@@ -172,10 +169,6 @@ a[href]{
     margin-right: 10px; 
     flex: 1; 
     margin-right: 10px; 
-}
-
-.texte-droite {
-    float: right;
 }
 
 footer{
