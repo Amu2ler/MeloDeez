@@ -146,14 +146,40 @@ a[href]{
     padding-top: 50px;
 }
 
+.image-1{
+    float: left;
+}
+
+.texte-droite{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+}
+
 .flow{
     width:75%;
     height:75%;
 }
 
+.block_services {
+    clear: both;
+    display: flex;
+    align-items: center; 
+}
+
+.image-1 {
+    float: left; 
+    margin-right: 10px; 
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.texte-droite {
+    float: right;
+}
+
 footer{
     position: relative;
-    width: 100%;
     background: #000000;
     min-height: 100px;
     padding: 20px 50px;
