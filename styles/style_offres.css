@@ -158,6 +158,7 @@ a[href]{
     vertical-align: top;
     width: 500px;
     float: left;
+    margin-left: 175px;
 }
 
 .flow{
@@ -177,7 +178,7 @@ a[href]{
 }
 
 .image-1 {
-    float: left; 
+    float: right; 
     margin-right: 10px; 
     flex: 1; 
     margin-right: 10px; 
