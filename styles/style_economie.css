@@ -25,8 +25,8 @@
     transition: color 0.3s;
 }
 
-.nav a:hover {
-    color: #ff6600;
+.nav a[href]:hover {
+    color: red;
 }
 
 body{
@@ -35,10 +35,92 @@ body{
 	font-size: xx-large;
 	text-align: center;
 }
+.case1{
+    display: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    scrollbar-color: #007 #bada55;
+}
+.case2{
+    display: center;
+    margin: auto;
+    margin-top: 1000px;
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+}
+.case3{
+    display: center;
+    margin: auto;
+    margin-top: 1000px;
+    width: 800px;
+    text-align: justify;
+}
 footer{
 	marker-end: 100px;
-	margin-top: 300px;
+	margin-top: 1000px;
 }
 li{
 	text-align: center;
+}
+footer{
+    background: #000000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   flex-wrap: wrap; 
+}
+
+footer .social_icon a{
+    font-size: 2em;
+    color: #ffff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon a:hover{
+    transform: translateY(-10px)
+}
+
+footer p{
+    color:#fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.facebook{
+    width: 37px;
+    height: 37px;
+}
+
+.twitter{
+    width: 35px;
+    height: 35px;
+}
+
+.instagram{
+    width: 33px;
+    height: 33px;
+}
+
+.linkedin{
+    width: 27px;
+    height: 27px;
 }
