@@ -82,6 +82,14 @@ a[href]{
     color: black;
 }
 
+#ancre-offre{
+    color:white;
+}
+
+#ancre-service{
+    color: white;
+    margin-right: 15px;
+}
 
 .container_2:hover {
     scale: 1.02;
@@ -132,6 +140,10 @@ a[href]{
     background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70)) ;
     text-align: center;
     transition: scale 0.3s ease-in-out;
+}
+
+#les-services{
+    padding-top: 50px;
 }
 
 footer{
