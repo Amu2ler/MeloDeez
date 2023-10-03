@@ -153,9 +153,21 @@ a[href]{
     float: right;
 }
 
+.texte-gauche{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    float: left;
+}
+
 .flow{
     width:75%;
     height:75%;
+}
+
+.song-catch{
+    width: 75%;
+    height: 75%;
 }
 
 .block_services {
@@ -169,6 +181,13 @@ a[href]{
     margin-right: 10px; 
     flex: 1; 
     margin-right: 10px; 
+}
+
+.image-2{
+    float: right;
+    margin-left: 10px;
+    flex: 1;
+    margin-left: 10px;
 }
 
 footer{
