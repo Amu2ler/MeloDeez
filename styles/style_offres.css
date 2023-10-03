@@ -177,20 +177,6 @@ a[href]{
     align-items: center; 
 }
 
-.image-1 {
-    float: right; 
-    margin-right: 10px; 
-    flex: 1; 
-    margin-right: 10px; 
-}
-
-.image-2{
-    float: right;
-    margin-left: 10px;
-    flex: 1;
-    margin-left: 10px;
-}
-
 footer{
     position: relative;
     background: #000000;
