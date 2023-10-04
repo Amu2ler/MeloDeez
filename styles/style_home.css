@@ -71,12 +71,14 @@ body {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .nav a:hover {
     color: #ff6600;
+    transform: scale(1.1); /* Agrandissement au survol */
 }
+
 
 .language-button {
     cursor: pointer;
@@ -106,13 +108,61 @@ body {
     opacity: 0.5;
 }
 
+/* Styles pour le bloc central avec un dégradé de couleurs */
 .centered-block {
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #ff6600, #ff0099); /* Dégradé de couleurs */
+    border-radius: 20px; /* Coins arrondis */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    animation: fadeIn 1s ease-in, shake 2s ease-in-out infinite; /* Animation de fondu en entrée et secousse */
 }
+
+/* Styles pour l'animation de fondu en entrée */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+
+/* Styles pour l'animation de l'arrière-plan */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    animation: musicBackground 10s linear infinite alternate;
+}
+
+/* Styles pour les barres de musique */
+.music-bars {
+    position: fixed;
+    bottom: 0; /* Au lieu de top: 0; */
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background-image: repeating-linear-gradient(90deg, yellow, yellow 20px, green 20px, green 40px);
+    animation: scrollBars 10s linear infinite;
+}
+
+@keyframes scrollBars {
+    0% {
+        left: -100%; /* Démarre en dehors de l'écran à gauche */
+    }
+    100% {
+        left: 100%; /* Termine en dehors de l'écran à droite */
+    }
+}
+
+/* Appliquer des styles différents à certaines barres */
+.music-bars:nth-child(2n) {
+    height: 3px; /* Barres plus petites */
+}
+
+
+
+
 
 .centered-block img {
     max-width: 200px;
@@ -130,12 +180,63 @@ body {
     line-height: 1.4;
 }
 
-footer {
+footer{
+    position: relative;
+
+    background: #000000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   flex-wrap: wrap; 
+}
+
+footer .social_icon a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon a:hover{
+    transform: translateY(-10px)
+}
+
+footer p{
+    color:#fff;
     text-align: center;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 0;
-    width: 100%;
-    position: fixed; /* Fixe le footer en bas */
-    bottom: 0; /* Aligne le footer en bas de la page */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.facebook{
+    width: 37px;
+    height: 37px;
+}
+
+.twitter{
+    width: 35px;
+    height: 35px;
+}
+
+.instagram{
+    width: 33px;
+    height: 33px;
+}
+
+.linkedin{
+    width: 27px;
+    height: 27px;
 }
