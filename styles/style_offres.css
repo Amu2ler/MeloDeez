@@ -161,6 +161,12 @@ a[href]{
     margin-left: 175px;
 }
 
+#blind-test-text{
+    display: center;
+    margin: auto;
+    width: 1000px;
+}
+
 .flow{
     width:75%;
     height:75%;
