@@ -17,5 +17,9 @@ RICHARD Florian
 
  - - - - - - - - - - - - - - 
 
- 
+## Sujet du projet
+Effectuer une présentation par le biais d’un rapport et d’un site web du
+positionnement économique et/ou écologique d’une entreprise du secteur numérique
 
+ - - - - - - - - - - - - - - 
+## Vérification W3C
