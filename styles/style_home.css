@@ -51,12 +51,11 @@ body {
     align-items: center; /* Centre verticalement */
 }
 
-.logo-and-title {
-    display: flex;
-    align-items: center;
-}
-    
+/*LANGUAGE BUTTON*/
 
+.language-button:hover {
+    color:forestgreen;
+}
 
 .language-button {
     cursor: pointer;
@@ -67,18 +66,7 @@ body {
     margin-right: 20px; /* Espacement du bouton par rapport au dernier élément de la navigation */
 }
 
-
-.language-button {
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ff6600;
-    transition: color 0.3s;
-}
-
-.language-button:hover {
-    color: #000000;
-}
+/* BODY*/ 
 
 .content {
     position: relative;
