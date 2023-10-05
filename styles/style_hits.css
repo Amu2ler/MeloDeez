@@ -46,31 +46,26 @@ h1{
 }
 .deezertop-left {
     display: flex;
-    justify-content: space-between;
-    position:relative;
-    left:330px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width:270px;
     height:680px;
 }
 .deezertop-right {
     display: flex;
-    justify-content: space-between;
-    position:relative;
-    left:650px;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
     width:270px;
     height:680px;
+    
 }
 
 
 h1, h2, h3 {
     text-align: center; 
 }
-
-
-
-
-
-
 
 
 
