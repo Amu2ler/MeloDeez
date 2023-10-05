@@ -52,6 +52,14 @@ h1{
     width:270px;
     height:680px;
 }
+.deezertop {
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    left:330px;
+    width:270px;
+    height:680px;
+}
 .deezertop-right {
     display: flex;
     justify-content: space-between;
