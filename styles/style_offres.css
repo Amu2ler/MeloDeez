@@ -165,6 +165,13 @@ a[href]{
     right: 150px;
 }
 
+.texte-droite-2{
+    width: 800px;
+    margin-left: 20px;
+    position: relative;
+    right: 250px;
+}
+
 .texte-gauche{
     display: inline-block;
     vertical-align: top;
@@ -209,6 +216,8 @@ a[href]{
 .zen{
     width: 60%;
     height: 60%;
+    position: relative;
+    left: 100px;
 }
 
 
