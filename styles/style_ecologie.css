@@ -1,8 +1,6 @@
-/* Styles pour le corps de la page */
-body {
-    background-color: black;
+
+#MeloDeez{
     color: white;
-    font-family: 'Ubuntu';
 }
 
 .nav {
@@ -37,20 +35,19 @@ body {
     color: #ff6600;
 }
 
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
 body{
     background-color: black ;
     color: white;
     font-size: xx-normal;
     text-align: center;
 }
-
-
-
-#MeloDeez{
-    color: white;
-}
-
-
 
 
 footer{

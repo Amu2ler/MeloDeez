@@ -1,7 +1,5 @@
-.body{
-    background-color:black;
-    color: white; 
-    font-family: 'Ubuntu';
+#MeloDeez{
+    color: white;
 }
 
 .nav {
@@ -35,6 +33,13 @@
     color: #ff6600;
 }
 
+
+.body{
+    background-color:black;
+    color: white; 
+    font-family: 'Ubuntu';
+}
+
 h1{
     text-align: center;
     font-size: xx-normal;
@@ -62,9 +67,7 @@ h1, h2, h3 {
 }
 
 
-#MeloDeez{
-    color: white;
-}
+
 
 
 
