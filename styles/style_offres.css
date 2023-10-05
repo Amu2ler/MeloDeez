@@ -4,6 +4,10 @@
     font-family: 'Ubuntu';
 }
 
+
+
+/* NAV */
+
 .nav {
     background-color: #ffffff;
     display: flex;
@@ -34,6 +38,10 @@
 .nav a:hover {
     color: #ff6600;
 }
+
+
+
+/* BODY */
 
 h1{
     text-align: center;
@@ -80,6 +88,10 @@ h2{
 
 a[href]{
     color: black;
+}
+
+#MeloDeez{
+    color: white;
 }
 
 #ancre-offre{
@@ -196,6 +208,10 @@ a[href]{
     width: 60%;
     height: 60%;
 }
+
+
+
+/* FOOTER */
 
 footer{
     position: relative;
