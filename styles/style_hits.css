@@ -33,6 +33,13 @@
     color: #ff6600;
 }
 
+
+.body{
+    background-color:black;
+    color: white; 
+    font-family: 'Ubuntu';
+}
+
 h1{
     text-align: center;
     font-size: xx-normal;
