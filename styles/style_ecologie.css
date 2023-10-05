@@ -56,7 +56,13 @@ body{
     background-color: black ;
     color: white;
     font-size: xx-normal;
-    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 
