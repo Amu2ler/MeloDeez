@@ -147,10 +147,8 @@ a[href]{
 }
 
 .texte-droite{
-    display: inline-block;
-    vertical-align: top;
     width: 500px;
-    float: right;
+    margin-left: 20px;
 }
 
 .texte-gauche{
@@ -186,6 +184,17 @@ a[href]{
     clear: both;
     display: flex;
     align-items: center; 
+}
+
+.block_services-3 {
+    clear: both;
+    display: flex;
+    align-items: center; 
+}
+
+.zen{
+    width: 60%;
+    height: 60%;
 }
 
 footer{
