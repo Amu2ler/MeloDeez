@@ -50,13 +50,10 @@ body {
     background-color: black;
     color: white;
     font-family: 'Ubuntu';
+    font-size: xx-normal;
+    text-align: center;
 }
 
-body{
-    background-color: black ;
-    color: white;
-    font-size: xx-normal;
-}
 .text-left {
     text-align: left;
 }
@@ -64,6 +61,7 @@ body{
 .text-right {
     text-align: right;
 }
+
 
 
 footer{
