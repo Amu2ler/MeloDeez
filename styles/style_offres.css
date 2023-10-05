@@ -1,3 +1,8 @@
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
 .body{
     background-color:black;
     color: white; 
@@ -58,6 +63,7 @@ h1{
 h2{
     margin-top: 50px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .container_1:hover {

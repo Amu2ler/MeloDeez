@@ -1,6 +1,16 @@
 #MeloDeez{
     color: white;
 }
+.black-top {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .nav {
     background-color: #ffffff;
@@ -44,22 +54,17 @@ h1{
     text-align: center;
     font-size: xx-normal;
 }
-.deezertop-left {
+
+.deezertop-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width:270px;
-    height:680px;
+    justify-content: center; /* Centre les widgets horizontalement */
+    gap: 50px; /* Ajoute un espace de 100 pixels entre les widgets */
+    margin-top: 20px; /* Espace en haut de l'ensemble de widgets */
 }
-.deezertop-right {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    align-items: center;
-    width:270px;
-    height:680px;
-    
+
+.deezertop-container iframe {
+    width: 350px;
+    height: 680px;
 }
 
 
