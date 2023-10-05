@@ -67,10 +67,46 @@ body {
 }
 
 /* BODY*/ 
-
-.content {
-    position: relative;
+h1{
     text-align: center;
+    font-size: xx-large;
+}
+
+h2{
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin: 0 auto;
+}
+
+.centered-block img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.centered-block h2 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.centered-block p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Styles pour l'animation de l'arrière-plan */
+body {
+    background-color: black;
+    color: white;
+    animation: musicBackground 10s linear infinite alternate;
 }
 
 .background-animation {
@@ -83,6 +119,7 @@ body {
     background-size: cover;
     opacity: 0.5;
 }
+
 
 /* Styles pour le bloc central avec un dégradé de couleurs */
 .centered-block {
@@ -103,29 +140,12 @@ body {
     100% { transform: translateX(5px); }
 }
 
-/* Styles pour l'animation de l'arrière-plan */
-body {
-    background-color: black;
-    color: white;
-    animation: musicBackground 10s linear infinite alternate;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-    margin: 0 auto;
-}
-
 /* Styles pour les barres de musique */
 .music-bars {
     position: fixed;
-    bottom: 0; /* Au lieu de top: 0; */
+    top: 50%; 
     left: -100%;
     width: 100%;
-    height: 5px;
     background-image: repeating-linear-gradient(90deg, yellow, yellow 20px, green 20px, green 40px);
     animation: scrollBars 10s linear infinite;
 }
@@ -144,23 +164,7 @@ body {
     height: 3px; /* Barres plus petites */
 }
 
-
-.centered-block img {
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-.centered-block h2 {
-    color: #ff6600;
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-.centered-block p {
-    font-size: 18px;
-    line-height: 1.4;
-}
-
+/* FOOTER */
 footer{
     position: relative;
 
