@@ -1,60 +1,20 @@
-/* Réinitialisation des styles par défaut du navigateur */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.body{
+    background-color:black;
+    color: white; 
+    font-family: 'Ubuntu';
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1b1b1b;
-    color: #ffffff;
-    margin-top: 70px; /* Pour éviter que le contenu ne soit caché sous la barre de navigation */
-}
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
 
-.black-top {
-    background-color: #000000;
-    text-align: center;
-    color: #ffffff;
-    padding: 10px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.logo-and-title {
-    display: flex;
-    align-items: center;
-}
-
-.logo-and-title h1 {
-    margin-left: 10px;
-}
+/* NAV */
 
 .nav {
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     width: 100%;
     padding: 10px 0;
-}
-
-.language-button {
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ff6600;
-    transition: color 0.3s;
-    margin-right: 20px;
 }
 
 .nav ul {
@@ -80,62 +40,61 @@ body {
     color: #ff6600;
 }
 
-.language-button:hover {
-    color: #000000;
+#MeloDeez{
+    color: white;
 }
 
-.content {
-    position: relative;
+
+
+/* body */
+
+h1{
     text-align: center;
+    font-size: xx-large;
 }
 
-.history-section {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-width: 800px;
-    margin: 0 auto;
+h2{
+    margin-top: 50px;
+    padding-top: 10px;
 }
 
-.history-section h2 {
-    color: #ff6600;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
+/* Style de la frise chronologique */
 .timeline {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    margin-top: 20px;
-}
-
-.timeline-item {
-    display: flex;
-    margin-bottom: 30px;
-    max-width: 800px;
-}
-
-.timeline-item h3 {
-    font-size: 18px;
-    color: #ff6600;
-    margin-right: 10px;
-}
-
-.timeline-item p {
-    font-size: 16px;
-    line-height: 1.4;
-}
-
-.timeline-item.left {
-    align-self: flex-start;
-}
-
-.timeline-item.right {
-    align-self: flex-end;
-}
-
+    align-items: center;
+    position: relative;
+  }
+  
+  .timeline-item {
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .timeline-item.left {
+    background-color: #f2f2f2;
+  }
+  
+  .timeline-item.right {
+    background-color: #e0e0e0;
+  }
+  
+  /* Lignes de la frise chronologique */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
 
 /* FOOTER */
 
