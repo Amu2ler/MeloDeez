@@ -132,7 +132,7 @@ a[href]{
     height: 365px;
     border: 0px solid purple;
     border-radius: 25px;
-    background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
+        background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
     text-align: center;
     transition: scale 0.3s ease-in-out;
 }
