@@ -1,6 +1,16 @@
 #MeloDeez{
     color: white;
 }
+.black-top {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .nav {
     background-color: #ffffff;
