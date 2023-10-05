@@ -42,7 +42,8 @@ h1{
 .deezertop {
     display: flex;
     justify-content: space-between;
-    
+    width:270px;
+    height:680px;
 }
 .deezertop iframe {
 flex: 0 0 calc(50% - 20px); /* Ajustez la largeur et l'espace entre les widgets ici */
