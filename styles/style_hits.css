@@ -44,23 +44,7 @@ h1{
     text-align: center;
     font-size: xx-normal;
 }
-/*.deezertop-left {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width:270px;
-    height:680px;
-}
-.deezertop-right {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    align-items: center;
-    width:270px;
-    height:680px;
-    
-}*/
+
 .deezertop-container {
     display: flex;
     justify-content: center; /* Centre les widgets horizontalement */
