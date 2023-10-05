@@ -39,11 +39,19 @@ h1{
     text-align: center;
     font-size: xx-normal;
 }
-.deezertop {
+.deezertop-left {
     display: flex;
     justify-content: space-between;
     position:relative;
-    left:320px;
+    left:330px;
+    width:270px;
+    height:680px;
+}
+.deezertop-right {
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    left:330px;
     width:270px;
     height:680px;
 }
