@@ -66,22 +66,234 @@ h2{
     text-align: center;
 }
 
-.container_1:hover {
-    scale: 1.02;
-}
-
-.container_1{
+.container_1 {
+    width: 600px;
+    height: 330px;
     display: center;
     margin: auto;
-    margin-top: 30px;
-    width: 800px;
-    height: 330px;
-    border: 3px solid repeating-linear-gradient(rgb(128, 0, 113), rgb(81, 0, 255));
-    border-radius: 25px;
+    margin-top: 70px;
     background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+.container_1:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+.first-content {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+.container_1:hover .first-content {
+    height: 0px;
+    opacity: 0;
+  }
+  
+.second-content {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    display: center;
     text-align: center;
-    transition: scale 0.3s ease-in-out;
-}
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+.container_1:hover .second-content {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.0rem;
+    transform: rotate(0deg);
+  }
+
+
+.container_2 {
+    width: 600px;
+    height: 365px;
+    display: center;
+    margin: auto;
+    margin-top: 70px;
+    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+.container_2:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+.first-content-2 {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+.container_2:hover .first-content-2 {
+    height: 0px;
+    opacity: 0;
+  }
+  
+.second-content-2 {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    display: center;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+.container_2:hover .second-content-2 {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.0rem;
+    transform: rotate(0deg);
+  }
+
+
+.container_3 {
+    width: 600px;
+    height: 375px;
+    display: center;
+    margin: auto;
+    margin-top: 70px;
+    background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+.container_3:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+.first-content-3 {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+.container_3:hover .first-content-3 {
+    height: 0px;
+    opacity: 0;
+  }
+  
+.second-content-3 {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    display: center;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+.container_3:hover .second-content-3 {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.0rem;
+    transform: rotate(0deg);
+  }
+
+
+  .container_4 {
+    width: 600px;
+    height: 365px;
+    display: center;
+    margin: auto;
+    margin-top: 70px;
+    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+.container_4:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+.first-content-4 {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+.container_4:hover .first-content-4 {
+    height: 0px;
+    opacity: 0;
+  }
+  
+.second-content-4 {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    display: center;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+.container_4:hover .second-content-4 {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.0rem;
+    transform: rotate(0deg);
+  }
+
+
+.les-offres{
+    margin-top: 0%;
+  }
+
+.title-card{
+    margin-top: 0%;
+    padding-top: 0%;
+  }
 
 .btn{
     background-color: white;
@@ -107,57 +319,6 @@ a[href]{
 #ancre-service{
     color: white;
     margin-right: 15px;
-}
-
-.container_2:hover {
-    scale: 1.02;
-}
-
-.container_2{
-    display: center;
-    margin: auto;
-    margin-top: 30px;
-    width: 800px;
-    height: 365px;
-    border: 0px solid orange;
-    border-radius: 25px;
-    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70)) ;
-    text-align: center;
-    transition: scale 0.3s ease-in-out;
-}
-
-.container_3:hover {
-    scale: 1.02;
-}
-
-.container_3{
-    display: center;
-    margin: auto;
-    margin-top: 30spx;
-    width: 800px;
-    height: 365px;
-    border: 0px solid purple;
-    border-radius: 25px;
-        background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
-    text-align: center;
-    transition: scale 0.3s ease-in-out;
-}
-
-.container_4:hover {
-    scale: 1.02;
-}
-
-.container_4{
-    display: center;
-    margin: auto;
-    margin-top: 30px;
-    width: 800px;
-    height:365px;
-    border: 0px solid orange;
-    border-radius: 25px;
-    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70)) ;
-    text-align: center;
-    transition: scale 0.3s ease-in-out;
 }
 
 #les-services{
