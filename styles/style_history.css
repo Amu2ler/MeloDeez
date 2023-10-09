@@ -1,13 +1,25 @@
-.body{
+/*.body{
     background-color:black;
     color: white; 
     font-family: 'Ubuntu';
 }
 
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#MeloDeez:hover{
+    color: #ff6600;
+}
+
+#MeloDeez{
+    color: white;
+    transition: color 0.3s;
+}
 
 
-
-/* NAV */
+/* NAV 
 
 .nav {
     background-color: #ffffff;
@@ -48,60 +60,70 @@
 
 /* body */
 
-h1{
-    text-align: center;
-    font-size: xx-large;
-}
-
-h2{
-    text-align: center;
+*{
+    box-sizing: border-box;
+  }
+  
+  .timeline {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
     margin-top: 50px;
-    padding-top: 10px;
-}
-
-
-/* Style de la frise chronologique */
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background: #d6d6d6;
+  }
+  
+  .timeline:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 50%;
+    width: 8px;
+    background: #346abf;
+    border-radius: 3px;
+    z-index: 1;
+  }
+  
+  .timeline article:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc( 100% + 26px );
+    background: #d6d6d6;
+    width: 24px;
+    height: 24px;
+    border: 6px #346abf solid;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .timeline article {
     position: relative;
-}
+    background: #eeeeee;
+    width: calc( 50% - 40px );
+    padding: 15px;
+  }
   
-.timeline-item {
-    width: 50%;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px;
-    position: relative;
-}
+  .timeline article + article {
+    margin-top: 20px;
+  }
   
-.timeline-item.left {
-    background-color: #f2f2f2;
-}
-  
-.timeline-item.right {
-    background-color: #e0e0e0;
-}
-  
-  /* Lignes de la frise chronologique*/
-
-.timeline::before {
+  .timeline article:after {
     content: "";
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background-color: #ccc;
-    transform: translateX(-50%);
-    z-index: -1;
-}
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 16px solid #eeeeee;
+    border-bottom: 20px solid transparent;
+  }
 
-
-
-/* FOOTER */
+/* FOOTER 
 
 footer{
     position: relative;
@@ -161,4 +183,4 @@ footer p{
 .linkedin{
     width: 27px;
     height: 27px;
-}
+}*/
