@@ -373,6 +373,7 @@ a[href]{
     margin-left: 20px;
     position: relative;
     right: 150px;
+    text-align: justify;
 }
 
 .texte-droite-2{
@@ -380,6 +381,7 @@ a[href]{
     margin-left: 20px;
     position: relative;
     right: 250px;
+    text-align: justify;
 }
 
 .texte-gauche{
@@ -387,12 +389,14 @@ a[href]{
     vertical-align: top;
     width: 500px;
     margin-left: 175px;
+    text-align: justify;
 }
 
 #blind-test-text{
     display: center;
     margin: auto;
     width: 1000px;
+    text-align: justify;
 }
 
 .flow{
