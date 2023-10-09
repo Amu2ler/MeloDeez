@@ -59,32 +59,35 @@ h2{
     padding-top: 10px;
 }
 
+
 /* Style de la frise chronologique */
+
 .timeline {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-  }
+}
   
-  .timeline-item {
+.timeline-item {
     width: 50%;
     padding: 20px;
     border-radius: 5px;
     margin: 20px;
     position: relative;
-  }
+}
   
-  .timeline-item.left {
+.timeline-item.left {
     background-color: #f2f2f2;
-  }
+}
   
-  .timeline-item.right {
+.timeline-item.right {
     background-color: #e0e0e0;
-  }
+}
   
-  /* Lignes de la frise chronologique */
-  .timeline::before {
+  /* Lignes de la frise chronologique*/
+
+.timeline::before {
     content: "";
     position: absolute;
     top: 0;
@@ -94,8 +97,9 @@ h2{
     background-color: #ccc;
     transform: translateX(-50%);
     z-index: -1;
-  }
-  
+}
+
+
 
 /* FOOTER */
 
