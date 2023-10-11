@@ -46,9 +46,18 @@
 }
 
 .box {
-    background: linear-gradient(to bottom, #3498db, #8e44ad); 
+    background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113)); 
     width: 80%; 
     height: 200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.box2 {
+    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
+    width: 80%; 
+    height: 365px; 
     margin: 20px auto; 
     padding: 20px; 
     border-radius: 10px; 
