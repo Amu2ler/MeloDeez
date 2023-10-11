@@ -45,6 +45,18 @@
     color: #ff6600;
 }
 
+.box {
+    background: linear-gradient(to right, #3498db, #9b59b6);
+}
+
+.box2 {
+    background: linear-gradient(to right, #3498db, #9b59b6);
+}
+
+.box3 {
+    background: linear-gradient(to right, #3498db, #9b59b6);
+}
+
 
 body {
     background-color: black;
