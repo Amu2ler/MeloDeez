@@ -61,17 +61,17 @@
     margin: 40px auto; 
     padding: 20px; 
     border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-/*
+
 .text-left {
-    text-align: left;
+    text-align: justify 
 }
 
 .text-right {
-    text-align: right;
+    text-align: justify 
 }
-*/
+
 
 body {
     background-color: black;
