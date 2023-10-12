@@ -46,7 +46,8 @@
 }
 
 .box {
-    background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113)); 
+    background: rgba(255, 0, 0, 0.3); 
+    text-align: justify;
     width: 30%; 
     height: 110%; 
     margin: 5% ; 
@@ -57,12 +58,13 @@
 }
 
 .box2 {
-    background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
+    background: rgba(255, 0, 0, 0.3);
+    
     width: 30%; 
     height: 110%; 
     margin: 5% ; 
-    padding: 20px; 
-    border-radius: 10px; 
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     
 }
