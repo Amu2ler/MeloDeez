@@ -49,22 +49,22 @@
     background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113)); 
     width: 30%; 
     height: 110%; 
-    margin: 5% auto; 
+    margin: 5% ; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    float: right;
+    
 }
 
 .box2 {
     background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
     width: 30%; 
     height: 110%; 
-    margin: 5% auto; 
+    margin: 5% ; 
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    float: left;
+    
 }
 
 .text-left {
