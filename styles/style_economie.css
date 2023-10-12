@@ -32,36 +32,149 @@
 body{
 	background-color: black ;
 	color: white;
-  font-family: 'Ubuntu';
 	text-align: center;
+}
+
+.myCard {
+  background-color: transparent;
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.frontSide,
+.frontSide::before {
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+}
+
+.backSide,
+.backSide::before {
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(20px);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
 }
 .case1{
     display: center;
     margin: auto;
-    margin-top: px;
+    margin-top: 200px;
     width: 800px;
-    height: auto;
+    height: 200px;
     text-align: justify;
+    scrollbar-color: #007 #bada55;
 }
 .case2{
     display: center;
     margin: auto;
-    margin-top: auto;
+    margin-top: 1000px;
     width: 800px;
-    height: auto;
+    height: 200px;
     text-align: justify;
+}
+.box1{
+  display: flex;
+  margin-left: 500;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box1 :first-child {
+  align-self: center;
+}
+.box2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box2 :first-child {
+  align-self: center;
+}
+.box3{
+  display: center;
 }
 .case3{
     display: center;
     margin: auto;
+    margin-top: 1000px;
     width: 800px;
-    height : auto ;
-    margin-top: 30px;
     text-align: justify;
+}
+img{
+    
 }
 footer{
 	marker-end: 100px;
-	margin-top: 50px;
+	margin-top: 1000px;
 }
 li{
 	text-align: center;
@@ -82,7 +195,7 @@ footer .social_icon, footer .menu{
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-   flex-wrap: wrap;
+   flex-wrap: wrap; 
 }
 
 footer .social_icon a{
@@ -122,5 +235,4 @@ footer p{
 
 .linkedin{
     width: 27px;
-    height: 27px;
-}
+    height: 27px
