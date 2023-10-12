@@ -1,11 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body {
-    width: 100%;
-    height: 100px;
+.body{
+    background-color:black;
+    color: white; 
     font-family: 'Ubuntu';
 }
 
@@ -21,151 +21,11 @@ body {
     z-index: -1;
     }
 
-iframe {
-    width: 100%;
-    height: 100%;
-}
-
-
-#venez{
-    color: white;
-}
-
-.bouton_venez{
-    display: inline-block;
-    background-color: #7b38d8;
-    border-radius: 10px;
-    border: 4px double #cccccc;
-    color: #eeeeee;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.bouton_venez:hover {
-    background-color: green;
-  }
-
-.animation{
-    width: 800px;
-    height: 400px;
-    box-shadow: 0 0 10px #ff6600, 0 0 15px #ff0099;
-    position: relative;
-    left: 50%;
-    top: 300%;
-    transform: translate(-50%, -50%);
+.nav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.centered-block:hover span{
-    transform: rotate(360deg) scale(2);
-    margin:0 15px;
-}
-
-.centered-block:hover img{
-    animation: zoom 20s linearing infinite;
-}
-
-@keyframes zoom{
-    0%{
-        width: 100%;
-        height: 100%;
-    }
-    50%{
-        width: 300%;
-        height: 300%;
-    }
-    100%{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-span{
-    padding: 1px;
-    position: relative;
-    font-size: 40px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 1s;
-    color: rgb(255, 255, 255) ;
-}
-
-span:nth-child(1){
-    transition-delay: .1s;
-}
-span:nth-child(2){
-    transition-delay: .2s;
-}
-span:nth-child(3){
-    transition-delay: .3s;
-}
-span:nth-child(4){
-    transition-delay: .4s;
-}
-span:nth-child(5){
-    transition-delay: .5s;
-}
-span:nth-child(6){
-    transition-delay: .6s;
-}
-span:nth-child(7){
-    transition-delay: .7s;
-}
-span:nth-child(8){
-    transition-delay: .8s;
-}
-span:nth-child(9){
-    transition-delay: .9s;
-}
-span:nth-child(10){
-    transition-delay: 1s;
-}
-
-span:hover{
-    animation: vibration .1s linear infinite;
-}
-@keyframes vibration{
-    0%{
-        transform: rotate(-5deg) scale(3);
-        color: rgb(255, 0, 0);
-    }
-    20%{
-        transform: rotate(10deg) scale(3);
-    }
-    40%{
-        transform: rotate(9) scale(3);
-    }
-    60%{
-        transform: rotate(6deg) scale(3);
-    }
-    80%{
-        transform: rotate(-7deg) scale(3);
-    }
-    100%{
-        transform: rotate(5deg) scale(3);
-        color: rgb(255, 0, 0);
-    }
-}
-
-/*  - - - - - - NAV - - - - - - - */
-
-.nav {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center; /* Centre les éléments du nav horizontalement */
+    justify-content: center; 
     width: 100%;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .nav ul {
@@ -182,143 +42,15 @@ span:hover{
 
 .nav a {
     text-decoration: none;
-    color: #000000;
+    margin: 0 35px;
+    color: white;
     font-weight: bold;
-    transition: color 0.3s;
+    opacity: 0.5;
+    font-size: x-large;
 }
 
 .nav a:hover {
-    color: #ff6600;
-}
-
-
-
-
-/*  - - - - - - LANGUAGE BUTTON - - - - - - - */
-
-.language-button:hover {
-    color:forestgreen;
-}
-
-.language-button {
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ff6600;
-    transition: color 0.3s;
-    margin-right: 20px; /* Espacement du bouton par rapport au dernier élément de la navigation */
-}
-
-/* - - - - - - BODY - - - - - - - */
-h1{
-    text-align: center;
-    font-size: xx-large;
-}
-
-h2{
-    margin-top: 50px;
-    padding-top: 10px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-    margin: 0 auto;
-}
-
-.centered-block img {
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-.centered-block h2 {
-    color: #ffffff;
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-.centered-block p {
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-body {
-    background-color: black;
     color: white;
-    animation: musicBackground 10s linear infinite alternate;
-}
-
-.centered-block {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(to bottom, #ff6600, #ff0099); 
-    border-radius: 20px; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
-    animation: fadeIn 1s ease-in, shake 2s ease-in-out infinite; 
-}
-
-
-/* - - - - - -  FOOTER - - - - - -  */
-footer{
-    position: relative;
-
-    background: #000000;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-footer .social_icon, footer .menu{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-   flex-wrap: wrap; 
-}
-
-footer .social_icon a{
-    font-size: 2em;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-}
-
-footer .social_icon a:hover{
-    transform: translateY(-10px)
-}
-
-footer p{
-    color:#fff;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-}
-
-.facebook{
-    width: 37px;
-    height: 37px;
-}
-
-.twitter{
-    width: 35px;
-    height: 35px;
-}
-
-.instagram{
-    width: 33px;
-    height: 33px;
-}
-
-.linkedin{
-    width: 27px;
-    height: 27px;
+    opacity: 1;
+    transition-duration: 0.8s;
 }
