@@ -45,14 +45,11 @@
     color: #ff6600;
 }
 
-/* Ajoutez le style pour les sous-menus */
+/* Style pour les sous-menus */
 .nav ul ul {
     display: none; /* Cache initialement les sous-menus */
     position: absolute;
     background-color: #ffffff;
-    border: 1px solid #000000;
-    padding: 10px;
-    z-index: 1;
 }
 
 .nav ul li:hover ul {
@@ -62,16 +59,47 @@
 /* Style pour les sous-menu items */
 .nav ul ul li {
     margin: 0;
+    padding: 10px;
 }
 
 .nav ul ul a {
     color: #000000;
     font-weight: normal;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s;
 }
 
 .nav ul ul a:hover {
     color: #ff6600;
+    background-color: #f1ece6;
 }
+
+/* Style pour les éléments du menu principal */
+.nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav ul a:after {
+    margin-left: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.nav ul li:hover a:after {
+    opacity: 1;
+}
+
+/* Style pour l'élément parent du sous-menu */
+.nav ul ul:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+}
+
 
 /* Pour aligner les "box" à droite */
 .box {
