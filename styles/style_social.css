@@ -45,29 +45,31 @@
     color: #ff6600;
 }
 
+/* Pour aligner les "box" à droite */
 .box {
-    background: rgba(255, 0, 0, 0.3); 
+    background: rgba(255, 0, 0, 0.3);
     text-align: justify;
-    width: 30%; 
-    height: 110%; 
-    margin: 5% ; 
+    width: 30%;
+    height: 110%;
+    margin: 5%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
+    align-self: flex-end; /* Aligne les "box" à droite */
 }
 
+/* Pour aligner les "box2" à gauche */
 .box2 {
     background: rgba(255, 0, 0, 0.3);
-    
-    width: 30%; 
-    height: 110%; 
-    margin: 5% ; 
+    width: 30%;
+    height: 110%;
+    margin: 5%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
+    align-self: flex-start; /* Aligne les "box2" à gauche */
 }
+
 
 .text-left {
     text-align: justify 
