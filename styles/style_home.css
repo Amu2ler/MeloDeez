@@ -9,6 +9,12 @@ html {
     font-family: 'Ubuntu';
 }
 
+h2{
+    margin-left: 39%;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
 #background-video {
     height: 100vh;
     width: 100vw;
@@ -56,5 +62,8 @@ html {
 }
 
 #logo-melodeez{
-    margin-left: 30%;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 20%;
+    height: 20%;
 }
