@@ -86,10 +86,143 @@
 }
 
 
+
+
+.card-container {
+
+  width: 800px;
+  height: 300px;
+  position:relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.card2 .front-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card2 .front-content p {
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card2 .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  color: #e8e8e8;
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateX(-96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+.pif{
+  display: flex;
+  justify-content: center;
+}
+
+.card2 .content .heading {
+  font-size: 32px;
+  font-weight: 800px;
+}
+
+.card:hover .content {
+  transform: translateY(0);
+}
+
+.card:hover .front-content {
+  transform: translateX(-30%);
+}
+
+.card:hover .front-content p {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Titre2 {
+  text-align: center;
+}
+
 body{
 	background-color: black ;
 	color: white;
-	text-align: center;
+  font-family: 'Ubuntu';
+}
+img {
+    max-width: 100%;
+    margin-left: 30px:
+}
+#imgCartes{
+  max-width: 70%;
+}
+
+
+.case1{
+    display: center;
+    margin: auto;
+    width: 700px;
+    height:500px
+
+    text-align: justify;
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.case1 :first-child {
+    align-self: center;
+    position: relative;
+    right :30px;
+
+
 }
 
 .myCard {
@@ -97,13 +230,14 @@ body{
   width: 190px;
   height: 254px;
   perspective: 1000px;
+  max-width: 30%;
 }
 
 .title {
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 500;
   text-align: center;
-  margin: 0;
+  margin: 0;S
 }
 
 .innerCard {
@@ -116,7 +250,7 @@ body{
   cursor: pointer;
 }
 
-.myCard:hover .innerCard {
+ .myCard:hover .innerCard {
   transform: rotateY(180deg);
 }
 
@@ -137,15 +271,21 @@ body{
   box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
   font-weight: 700;
 }
+.title2{
+  font-size: 1em;
+  font-weight: 500;
+  text-align: right;
+  margin: 0;S
+}
 
 .frontSide,
 .frontSide::before {
-  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
 }
 
 .backSide,
 .backSide::before {
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
 }
 
 .backSide {
@@ -180,11 +320,44 @@ body{
     opacity: 0.3;
   }
 }
+.card-button {
+ transform: translate(-50%, 125%);
+ width: 60%;
+ border-radius: 1rem;
+ border: none;
+ background-color: #008bf8;
+ color: #fff;
+ font-size: 1rem;
+ padding: .5rem 1rem;
+ position: absolute;
+ left: 50%;
+ height:30px;
+ font-size:13px;
+ bottom: 0;
+ opacity: 0;
+ transition: 0.3s ease-out;
+}
+.backSide:hover .card-button {
+ transform: translate(-50%, 50%);
+ opacity: 1;
+}
+.carteCase1{
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
 .case1{
     display: center;
     margin: auto;
-    margin-top: 200px;
-    width: 800px;
+    margin-top: 50px;
+    width: 600px;
     height: 200px;
     text-align: justify;
     scrollbar-color: #007 #bada55;
@@ -192,7 +365,7 @@ body{
 .case2{
     display: center;
     margin: auto;
-    margin-top: 1000px;
+    margin-top: auto;
     width: 800px;
     height: 200px;
     text-align: justify;
@@ -202,6 +375,7 @@ body{
   margin-left: 500;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 50px;
 }
 
 .box1 :first-child {
@@ -211,27 +385,109 @@ body{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 50px;
 }
 
 .box2 :first-child {
   align-self: center;
 }
 .box3{
-  display: center;
+  display: flex;
+  margin-left: 500;
+  align-items: center ;
+  justify-content: space-between;
+  margin: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+.case2{
+    display: center;
+    margin: auto;
+    margin-top: auto;
+    width: 800px;
+    height: auto;
+    text-align: center;
 }
 .case3{
     display: center;
     margin: auto;
-    margin-top: 1000px;
     width: 800px;
+    height : auto ;
+    margin-top: 30px;
     text-align: justify;
 }
-img{
-    
+
+.coin {
+  font-size: 200px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#faa504, #141001);
+  margin: auto;
+  position: absolute;
+  margin-right: 100px;
+  animation: rotate_4001510 7s infinite linear;
+  transform-style: preserve-3d;
 }
+
+.coin .side, .coin:before, .coin:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.coin .tails, .coin:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+
+.coin:before, .coin:after {
+  background: linear-gradient(#faa504, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+
+.coin:after {
+  transform: rotateY(-90deg);
+}
+
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.svg_back {
+  transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
 footer{
 	marker-end: 100px;
-	margin-top: 1000px;
+	margin-top: 50px;
 }
 li{
 	text-align: center;
@@ -252,7 +508,7 @@ footer .social_icon, footer .menu{
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-   flex-wrap: wrap; 
+   flex-wrap: wrap;
 }
 
 footer .social_icon a{
@@ -263,7 +519,15 @@ footer .social_icon a{
     transition: 0.5s;
 }
 
-footer .social_icon a:hover{
+footer .social_icon .box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}a:hover{
     transform: translateY(-10px)
 }
 
@@ -292,5 +556,5 @@ footer p{
 
 .linkedin{
     width: 27px;
-    height: 27px
+    height: 27px;
 }
