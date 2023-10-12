@@ -47,23 +47,23 @@
 
 .box {
     background: repeating-linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113)); 
-    width: 40%; 
-    height: 90%; 
-    margin: 40px auto; 
+    width: 30%; 
+    height: 110%; 
+    margin: 5%; 
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    float: left; 
+    float: left;
 }
 .box2 {
     background: repeating-linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
-    width: 40%; 
-    height: 90%; 
-    margin: 40px auto; 
+    width: 30%; 
+    height: 110%; 
+    margin: 5%; 
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    float: right; 
+    float: right ; 
 }
 
 .text-left {
@@ -86,6 +86,7 @@ body {
 
 footer{
     position: relative;
+    bottom: 0;
     background: #000000;
     min-height: 100px;
     padding: 20px 50px;
@@ -97,11 +98,12 @@ footer{
 
 footer .social_icon, footer .menu{
     position: relative;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-   flex-wrap: wrap; 
+    flex-wrap: wrap; 
 }
 
 footer .social_icon a{
