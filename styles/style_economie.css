@@ -86,8 +86,6 @@
 }
 
 
-
-
 .card-container {
 
   width: 800px;
@@ -172,20 +170,6 @@
   opacity: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Titre2 {
   text-align: center;
 }
@@ -197,7 +181,7 @@ body{
 }
 img {
     max-width: 100%;
-    margin-left: 30px:
+    margin-left: 30px;
 }
 #imgCartes{
   max-width: 70%;
@@ -208,11 +192,8 @@ img {
     display: center;
     margin: auto;
     width: 700px;
-    height:500px
-
+    height:500px;
     text-align: justify;
-
-
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -237,7 +218,7 @@ img {
   font-size: 1.5em;
   font-weight: 500;
   text-align: center;
-  margin: 0;S
+  margin: 0;
 }
 
 .innerCard {
@@ -275,7 +256,7 @@ img {
   font-size: 1em;
   font-weight: 500;
   text-align: right;
-  margin: 0;S
+  margin: 0;
 }
 
 .frontSide,
@@ -347,12 +328,6 @@ img {
 }
 
 
-
-
-
-
-
-
 .case1{
     display: center;
     margin: auto;
@@ -399,14 +374,6 @@ img {
   margin: 50px;
 
 }
-
-
-
-
-
-
-
-
 
 .case2{
     display: center;
@@ -477,12 +444,6 @@ img {
 .svg_back {
   transform: scaleX(-1);
 }
-
-
-
-
-
-
 
 
 footer{
