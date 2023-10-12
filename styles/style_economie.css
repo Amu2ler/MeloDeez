@@ -29,6 +29,34 @@
     color: red;
 }
 
+/* Ajoutez le style pour les sous-menus */
+.nav ul ul {
+  display: none; /* Cache initialement les sous-menus */
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px;
+  z-index: 1;
+}
+
+.nav ul li:hover ul {
+  display: block; /* Affiche le sous-menu lorsque l'élément parent est survolé */
+}
+
+/* Style pour les sous-menu items */
+.nav ul ul li {
+  margin: 0;
+}
+
+.nav ul ul a {
+  color: #000000;
+  font-weight: normal;
+}
+
+.nav ul ul a:hover {
+  color: #ff6600;
+}
+
 body{
 	background-color: black ;
 	color: white;
