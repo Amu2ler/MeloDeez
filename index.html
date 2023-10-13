@@ -28,15 +28,21 @@
     <h2>
         Le meilleur site, qu'on se le dise
     </h2>
-    <p>
+    <br>
+    <p id="description">
         MeloDeez vous présente l'entreprise Deezer, plateforme où passion pour la musique se traduit en une expérience sonore inégalée.
     </p>
-    <button class="button" href="/pages/histoire.html">
-        Découvrez l'histoire de Deezer
-    </button>
+    <br><br><br>
+    <button class="button" id="histoire-button">Découvrez l'histoire de Deezer</button>
+
+    
 </div>
 
-
+    <script>
+    document.getElementById("histoire-button").addEventListener("click", function () {
+        window.location.href = "/pages/histoire.html"; // Redirige vers la page histoire.html
+    });
+    </script>
 
     <script>
         document.addEventListener("contextmenu", function (e) {
