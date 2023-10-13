@@ -334,16 +334,17 @@ h2{
   }
 
 .btn{
-    background-color: white;
+    background-color: black;
     display: center;
     width: 350px;
     height: 85px;
-    border: 8px solid white;
+    border: 8px solid black;
     border-radius: 25px;
 }
 
 a[href]:hover{
-    color: #ff6600;
+    color: white;
+    opacity: 1;
 }
 
 .nav-lien:hover{
