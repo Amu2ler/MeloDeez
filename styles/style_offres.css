@@ -6,7 +6,7 @@ html {
 .body{
     background-color:black;
     color: white; 
-    font-family: 'Ubuntu';
+    font-family: "Helvetica", sans-serif;
 }
 
 #background-video {
