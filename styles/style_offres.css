@@ -23,12 +23,11 @@ html {
 
 /* NAV */
 
-.nav {
-    background-color: #ffffff;
+.nav{
     display: flex;
     justify-content: center; 
     width: 100%;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .nav ul {
@@ -45,71 +44,18 @@ html {
 
 .nav a {
     text-decoration: none;
-    color: #000000;
+    margin: 0 35px;
+    color: white;
     font-weight: bold;
-    transition: color 0.3s;
+    opacity: 0.5;
+    font-size: x-large;
 }
 
 .nav a:hover {
-    color: #ff6600;
-}
-
-/* Style pour les sous-menus */
-.nav ul ul {
-    display: none; /* Cache initialement les sous-menus */
-    position: absolute;
-    background-color: #ffffff;
-}
-
-.nav ul li:hover ul {
-    display: block; /* Affiche le sous-menu lorsque l'élément parent est survolé */
-}
-
-/* Style pour les sous-menu items */
-.nav ul ul li {
-    margin: 0;
-    padding: 10px;
-}
-
-.nav ul ul a {
-    color: #000000;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Ubuntu';
-    text-decoration: none;
-    display: block;
-    padding: 5px;
-    transition: background-color 0.3s;
-}
-
-.nav ul ul a:hover {
-    color: #ff6600;
-}
-
-/* Style pour les éléments du menu principal */
-.nav ul li {
-    margin: 0 10px;
-    position: relative;
-}
-
-.nav ul a:after {
-    margin-left: 5px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.nav ul li:hover a:after {
+    color: white;
     opacity: 1;
+    transition-duration: 0.8s;
 }
-
-/* Style pour l'élément parent du sous-menu */
-.nav ul ul:before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 50%;
-}
-
 
 /* BODY */
 
@@ -400,18 +346,9 @@ a[href]:hover{
     color: #ff6600;
 }
 
-a[href]{
-    color: black;
-    transition: color O.3s;
-}
-
-#MeloDeez:hover{
-    color: #ff6600;
-}
-
-#MeloDeez{
+.nav-lien:hover{
     color: white;
-    transition: color 0.3s;
+    opacity: 1;
 }
 
 #ancre-offre:hover{
