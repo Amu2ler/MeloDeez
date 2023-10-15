@@ -15,10 +15,10 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/chanteur-scene.webp');
+    background-image: url('/img/chanteur-scene.jpg');
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    z-index: -2;
   }
 
 /* NAV */
@@ -363,8 +363,9 @@ a[href]:hover{
     background-attachment: scroll;
 }
 
-.sevices-deezer{
+.services-deezer{
     background-color: #000000;
+    z-index: -1;
 }
 
 .texte-droite{
