@@ -1,20 +1,15 @@
-        const container = document.querySelector('.container_1');
-        const paragraphes = container.querySelectorAll('p');
-
-        // Cacher les paragraphes initialement
-        paragraphes.forEach(paragraphe => {
-            paragraphe.style.display = 'none';
-        });
-
-        // Ajouter un gestionnaire d'événements pour la survol de la souris
-        container.addEventListener('mouseover', () => {
-            paragraphes.forEach(paragraphe => {
-                paragraphe.style.display = 'block';
-            });
-        });
-
-        container.addEventListener('mouseout', () => {
-            paragraphes.forEach(paragraphe => {
-                paragraphe.style.display = 'none';
-            });
-        });
+document.addEventListener("DOMContentLoaded", function () {
+    var boutonRetourEnHaut = document.getElementById("retour-en-haut");
+  
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+        boutonRetourEnHaut.style.display = "block";
+      } else {
+        boutonRetourEnHaut.style.display = "none";
+      }
+    });
+  
+    boutonRetourEnHaut.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
