@@ -32,6 +32,10 @@
     transition-duration: 0.8s;
 }
 
+#page-actuelle{
+    opacity: 1;
+  }
+
 
 .body{
     background-color:black;
