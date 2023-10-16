@@ -43,7 +43,10 @@ h1{
     text-align: center;
     font-size: xx-normal;
 }
-
+.top1 {
+    display: flex;
+    margin-left: 200px; 
+}
 
 .deezertop {
     display: flex;

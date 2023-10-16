@@ -46,12 +46,9 @@ h1{
     transition-duration: 0.8s;
 }
 
-
-#MeloDeez{
-    color: white;
-}
-
-
+#page-actuelle{
+    opacity: 1;
+  }
 
 /* body */
 
