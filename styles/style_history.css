@@ -59,6 +59,13 @@ h1{
 box-sizing: border-box;
 }
 
+.ancre{
+    display: center;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+
 .timeline {
 position: relative;
 width: 100%;
@@ -76,7 +83,7 @@ top: 20px;
 bottom: 20px;
 left: 50%;
 width: 8px;
-background: #346abf;
+background: #bf8334;
 border-radius: 3px;
 z-index: 1;
 }
@@ -90,14 +97,14 @@ left: calc( 100% + 26px );
 background: #d6d6d6;
 width: 24px;
 height: 24px;
-border: 6px #346abf solid;
+border: 6px #bf8334 solid;
 border-radius: 50%;
 z-index: 2;
 }
 
 .timeline article {
 position: relative;
-background: #eeeeee;
+background: blanchedalmond;
 width: calc( 50% - 40px );
 padding: 15px;
 }
