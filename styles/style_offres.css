@@ -57,6 +57,10 @@ html {
     transition-duration: 0.8s;
 }
 
+#page-actuelle{
+  opacity: 1;
+}
+
 /* BODY */
 
 h1{
@@ -203,7 +207,7 @@ h2{
 
 .container_3 {
     width: 600px;
-    height: 375px;
+    height: 400px;
     display: center;
     margin: auto;
     margin-top: 70px;
@@ -364,6 +368,7 @@ a[href]:hover{
 }
 
 .services-deezer{
+    margin-top: 50px;
     background-color: #000000;
     z-index: -1;
 }
