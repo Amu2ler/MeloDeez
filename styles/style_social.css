@@ -51,28 +51,6 @@ body {
     align-items: center; 
 }
 
-/*
-.box1 .box2 {
-    background: rgba(0, 0, 0);
-    width: 40%;
-    height: 80%;
-    margin: 7%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
-}
-
-.box1 .box2 {
-    background: rgba(0, 0, 0);
-    width: 40%;
-    height: 80%;
-    margin: 7%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
-}*/
 p {
     display: block;
     margin-block-start: 1em;
