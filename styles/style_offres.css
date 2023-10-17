@@ -340,6 +340,10 @@ h2{
     border-radius: 25px;
 }
 
+a[href]{
+  color: white;
+}
+
 a[href]:hover{
     color: white;
     opacity: 1;
