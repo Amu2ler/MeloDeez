@@ -34,7 +34,7 @@
 
 #page-actuelle{
     opacity: 1;
-  }
+}
 
 
 .body{
@@ -43,13 +43,25 @@
     font-family: "Helvetica", sans-serif;
 }
 
-h1{
-    text-align: center;
-    font-size: xx-normal;
+.titre1{
+    display: flex;
+    margin-left: 42%;
 }
+
+.titre2{
+    display: flex;
+    margin-left: 45%;
+}
+
+.explication{
+    display: flex;
+    margin-left: %;
+}
+
+
 .top1 {
     display: flex;
-    margin-left: 200px; 
+    margin-left: 38%; 
 }
 
 .deezertop {
@@ -71,10 +83,12 @@ h1{
 
 
 h1, h2, h3, h4 {
-    text-align: center; 
+    text-align: justify; 
     margin-top: 20px;
 }
-
+h1{
+    font-size: xx-normal;
+}
 
 
 footer{
