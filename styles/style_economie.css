@@ -401,6 +401,36 @@ img {
 
 
 
+/* Bouton en or */
+
+@keyframes animationOr {
+ 0% {
+    background-color: gold;
+  }
+  33% {
+    background-color: #ffd700;
+  }
+  66% {
+    background-color: #e0a600;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+
+.or {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  background-color: gold;
+  color: #333;
+  animation: animationOr 2s infinite;
+}
+
+
+
+
+
 footer{
   marker-end: 100px;
   margin-top: 50px;
@@ -495,30 +525,4 @@ footer p{
   height: 100%;
   text-align: justify;
 
-}
-
-/* Bouton en or */
-
-@keyframes animationOr {
- 0% {
-    background-color: gold;
-  }
-  33% {
-    background-color: #ffd700;
-  }
-  66% {
-    background-color: #e0a600;
-  }
-  100% {
-    background-color: gold;
-  }
-}
-
-.or {
-  font-size: 24px;
-  text-align: center;
-  padding: 20px;
-  background-color: gold;
-  color: #333;
-  animation: animationOr 2s infinite;
 }
