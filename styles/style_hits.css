@@ -52,12 +52,26 @@
     display: flex;
     margin-left: 45%;
 }
-
+/*
 .explication{
     display: flex;
-    margin-left: %;
+    margin-left: 15%;
+    margin-top: 1%;
+}*/
+.explication {
+    display: flex;
+    margin-left: 13%;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
 }
-
+.explication2{
+    display: flex;
+    margin-left: 15%;
+}
+.explication3{
+    display: flex;
+    margin-left: 4%;
+}
 
 .top1 {
     display: flex;
@@ -82,13 +96,26 @@
 }
 
 
-h1, h2, h3, h4 {
+h3 {
     text-align: justify; 
-    margin-top: 20px;
+    
 }
 h1{
     font-size: xx-normal;
+    text-align: justify; 
+    margin-top: 20px;
 }
+
+h2{
+    text-align: justify; 
+    margin-top: 70px;
+}
+h4 {
+    text-align: justify; 
+    margin-top: 0.5px;
+}
+
+
 
 
 footer{
