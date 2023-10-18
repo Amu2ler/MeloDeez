@@ -125,6 +125,33 @@ h1{
     font-weight: bolder;
   }
 
+  #titre{
+    margin-left: 37%;
+  }
+  
+  .ligne-1{
+    padding-left: 10%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .ligne-2{
+    padding-left: 10%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .ligne-3{
+    display: flex;
+    margin-left: 41%;
+  }
+
   #image-1{
     width: 70%;
   }
