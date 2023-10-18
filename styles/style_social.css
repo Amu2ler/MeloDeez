@@ -120,6 +120,41 @@ h1{
     order: 1;
   }
 
+  #titre-1{
+    position: relative;
+    right: 2px;
+  }
+
+  #titre-2{
+    position: relative;
+    right: 23px;
+  }
+
+  #titre-3{
+    position: relative;
+    right: 22px;
+  }
+
+  #titre-4{
+    position: relative;
+    right: 24px;
+  }
+
+  #titre-5{
+    position: relative;
+    right: 68px;
+  }
+
+  #titre-6{
+    position: relative;
+    right: 20px;
+  }
+
+  #titre-7{
+    position: relative;
+    right: 10px;
+  }
+
   .ligne-1{
     padding-left: 10%;
     width: 70%;
