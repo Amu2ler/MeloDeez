@@ -45,61 +45,7 @@ padding: 30px 0;
 
 /*CONTENU*/
 
-.tableau{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px 400px;
-    grid-gap: 10px;
-    grid-auto-rows: minmax(400px, auto);
-}
 
-.one{
-    grid-column: 1;
-    grid-row: 1;
-    text-align: justify;
-}
-
-.image-1{
-    width: 80%;
-}
-
-.two{
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.three{
-    grid-column: 1;
-    grid-row: 2;
-}
-
-.four{
-    grid-column: 2;
-    grid-row: 2;
-    text-align: justify;
-}
-
-.five{
-    grid-column: 1;
-    grid-row: 3;
-    text-align: justify;
-}
-
-.six{
-    grid-column: 2;
-    grid-row: 3;
-}
-
-.seven{
-    grid-column: 1;
-    grid-row: 4;
-}
-
-.eight{
-    grid-column: 2;
-    grid-row: 4;
-    text-align: justify;
-}
 
 /*FOOTER*/
 
