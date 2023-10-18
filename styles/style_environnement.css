@@ -135,11 +135,11 @@ h2{
 }
 
 #ancre-social:hover{
-    color: #ff6600;
+    color: rgb(170, 114, 12);
 }
 
 #ancre-écologie:hover{
-    color: #ff6600;
+    color: rgb(170, 114, 12);
 }
 
 #description{
@@ -147,21 +147,22 @@ h2{
 }
 
 .btn{
-    background-color: white;
+    background-color: rgb(170, 114, 12);
     display: center;
     width: 350px;
     height: 85px;
-    border: 1px solid black;
+    padding: 5px 5px;
+    /* border: 1px solid black; */
     border-radius: 5px;
     transition: color 0.8s;
 }
 
 .btn:hover {
-    background-color: black;
+    transform: scale(1.2);
 }
 
 a[href]{
-    color: black;
+    color: white;
     padding: 10px;
 }
 
