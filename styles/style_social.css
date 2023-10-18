@@ -61,6 +61,10 @@ h1{
 
 /*MATHEO*/
 
+#titre{
+    text-align: center;
+}
+
 .book {
     position: relative;
     border-radius: 10px;
@@ -74,14 +78,9 @@ h1{
     transform: preserve-3d;
     -webkit-perspective: 2000px;
     perspective: 2000px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+    align-items: flex-start;
+    flex-direction: center;
     justify-content: center;
     color: #000;
   }
@@ -101,14 +100,9 @@ h1{
     transform-origin: 0;
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
   }
   
@@ -120,15 +114,12 @@ h1{
     transform: rotatey(-80deg);
   }
   
-  p {
+  .titre-carte{
     font-size: 20px;
     font-weight: bolder;
+    order: 1;
   }
 
-  #titre{
-    margin-left: 37%;
-  }
-  
   .ligne-1{
     padding-left: 10%;
     width: 70%;
@@ -154,30 +145,44 @@ h1{
 
   #image-1{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-2{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-3{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-4{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-5{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-6{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
   #image-7{
     width: 70%;
+    position: relative;
+    right: 36px;
   }
 
 
