@@ -55,20 +55,49 @@ padding: 30px 0;
   }
 
 /*CONTENU*/
-.question {
-    margin: 10px 0;
-    cursor: pointer;
-}
 
-.answer {
-    display: none;
-    margin-top: 10px;
-}
 
 /*MATHEO*/
 
 
 /*ARTHUR*/
+.Arthur {
+    background-color: #121212; /* Couleur de fond plus sombre */
+    padding: 20px; /* Ajout d'un espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre pour démarquer la section */
+
+    /* Ajout de marge autour du questionnaire */
+    margin: 20px;
+}
+
+.question {
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #1E1E1E; /* Couleur de fond légèrement plus sombre pour les questions */
+    padding: 10px; /* Ajout d'un espacement intérieur pour chaque question */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.question h3 {
+    margin: 0;
+    color: #FF6C40; /* Couleur du texte des questions */
+    font-weight: bold;
+    font-size: 1.2em; /* Taille de police légèrement plus grande */
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    padding: 10px; /* Ajout d'un espacement intérieur pour les réponses */
+    background-color: #1E1E1E; /* Couleur de fond pour les réponses */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.Arthur h3 {
+    text-align: center; /* Centrer le titre de la section */
+    color: #FF6C40; /* Couleur du texte du titre */
+}
 
 /*FOOTER*/
 
