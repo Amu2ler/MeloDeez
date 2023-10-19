@@ -61,11 +61,10 @@ html {
   opacity: 1;
 }
 
-.melodeez-logo{
-  width: 10%;
-  margin-left: 50px;
+#melodeez-logo{
+  width: 80%;
   position: relative;
-  left: 600px;
+  left: 20px;
 }
 
 #scroll-up{
