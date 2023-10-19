@@ -58,6 +58,10 @@ opacity: 0.5;
 
 /* Parametres généraux du corps */
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: black ;
   color: white;
