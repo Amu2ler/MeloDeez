@@ -110,7 +110,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page Environnement
   - Page Social
   - "Template" de page (Navbar/Footer)
-  - 
+  
 
 - MULLER Arthur
   - Page histoire
