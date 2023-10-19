@@ -66,6 +66,8 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 ## Répartition du travail
 
 ### README
+- MULLER Arthur (50%)
+- ROSE Mathéo (50%)
 
 ### Planification - Diagramme de GANTT
 
@@ -108,6 +110,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page Environnement
   - Page Social
   - "Template" de page (Navbar/Footer)
+  - 
 
 - MULLER Arthur
   - Page histoire
