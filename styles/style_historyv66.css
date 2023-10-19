@@ -1,0 +1,336 @@
+body{
+background-image: url("../img/imagefondhistoire.jpg");
+color: white; 
+
+font-family: "Helvetica", sans-serif;
+}
+
+h1{
+text-align: center;
+font-size: xx-large;
+}
+
+
+/* NAV */
+.nav{
+display: flex;
+justify-content: center; 
+width: 100%;
+padding: 30px 0;
+}
+
+.nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+}
+
+.nav li {
+margin: 0 10px;
+}
+
+.nav a {
+text-decoration: none;
+margin: 0 35px;
+color: white;
+font-weight: bold;
+opacity: 0.5;
+font-size: x-large;
+}
+
+.nav a:hover {
+color: white;
+opacity: 1;
+transition-duration: 0.8s;
+}
+
+#melodeez-logo{
+    width: 80%;
+    position: relative;
+    left: 20px;
+  }
+
+#page-actuelle{
+opacity: 1;
+}
+
+#scroll-up{
+    width: 20%;
+  }
+  
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -130px;
+  opacity: 0.5;
+  }
+
+/* BODY */
+*{
+box-sizing: border-box;
+}
+
+.ancre{
+display: center;
+text-align: center;
+margin-bottom: 50px;
+}
+
+a[href^="#"]{
+text-decoration: none;
+color: white;
+}
+
+/* TIMELINE */
+* { box-sizing: border-box; }
+
+.timeline {
+position: relative;
+width: 100%;
+max-width: 1600px;
+margin: 0 auto;
+padding: 40px 60px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 40px 0; 
+}
+  
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(50% - 4px); 
+    background: #cc8e07;
+    width: 8px;
+    height: 100%;
+    border-radius: 3px;
+    z-index: 1;
+}
+  
+
+.timeline article {
+position: relative;
+background: repeating-linear-gradient(rgb(172, 150, 221),rgb(185, 56, 170));
+width: calc( 50% - 40px );
+padding: 15px;
+}
+
+.timeline article + article {
+margin-top: 20px;
+}
+
+.timeline article:before {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: calc( 100% + 26px );
+background: #d6d6d6;
+width: 24px;
+height: 24px;
+border: 6px #cc8e07 solid;
+border-radius: 50%;
+z-index: 2;
+}
+
+.timeline article:after {
+content: "";
+position: absolute;
+top: 0;
+left: 100%;
+width: 0;
+height: 0;
+border-top: 20px solid transparent;
+border-left: 16px solid #ff0000;
+border-bottom: 20px solid transparent;
+}
+
+.timeline article:nth-child(even) {
+margin-left: calc( 50% + 48px );
+}
+
+.timeline article:nth-child(even):before {
+left: auto;
+right: calc( 100% + 26px );
+}
+
+.timeline article:nth-child(even):after {
+left: auto;
+right: 100%;
+border-left: none;
+border-right: 16px solid #eeeeee;
+}
+
+
+/* CSS pour les images */
+.image img {
+display: block;
+width: 20%;
+height: 20%;
+object-fit: cover; 
+border-radius: 5px; 
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.timeline-item.image-right .image img,
+.timeline-item.image-left .image img {
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.timeline-item .content1 img,
+.timeline-item .content2 img,
+.timeline-item .content3 img,
+.timeline-item .content4 img,
+.centered-item img {
+display: block;
+margin: 10px auto; /* Centrer l'image */
+max-width: 100%; /* Assurez-vous que l'image ne dépasse pas de son conteneur */
+border-radius: 5px; /* Coins arrondis */
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Ombre légère */
+}
+
+.image-left .image {
+order: 1;
+}
+
+.image-right .image {
+order: 2;
+}
+
+.centered-item {
+text-align: center;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+
+.tableau{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px 400px;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(400px, auto);
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+}
+
+.two{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four{
+    grid-column: 3;
+    grid-row: 2;
+    text-align: justify;
+}
+
+.five{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: justify;
+}
+
+.six{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.seven{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.eight{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: justify;
+}
+
+
+
+/* FOOTER */
+
+footer{
+position: relative;
+background: #000000;
+min-height: 100px;
+padding: 20px 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+z-index: -1;
+}
+
+footer .social_icon, footer .menu{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap; 
+}
+
+footer .social_icon a{
+font-size: 2em;
+color: #fff;
+margin: 0 10px;
+display: inline-block;
+transition: 0.5s;
+}
+
+footer .social_icon a:hover{
+transform: translateY(-10px)
+}
+
+footer p{
+color:#fff;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 10px;
+font-size: 1.1em;
+}
+
+.facebook{
+width: 37px;
+height: 37px;
+}
+
+.twitter{
+width: 35px;
+height: 35px;
+}
+
+.instagram{
+width: 33px;
+height: 33px;
+}
+
+.linkedin{
+width: 27px;
+height: 27px;
+}
