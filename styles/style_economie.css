@@ -87,7 +87,7 @@ a{
 /* Image de fond */
 
 .background-image{
-  background-image: url("../img/batiment-deezer.jpg");
+  background-image: url('../img/batiment-deezer.jpg');
   filter: brightness(20%);
   position: fixed;
   top: 0;
