@@ -1,8 +1,5 @@
 
-#MeloDeez{
-    color: white;
-}
-
+/* NAV */
 .nav{
     display: flex;
     justify-content: center; 
@@ -57,7 +54,7 @@
 
 
 
-
+/* BODY */
 body {
     color: white;
     font-family: "Helvetica", sans-serif;
@@ -66,8 +63,8 @@ body {
 }
 
 .tableau{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
 .col-md-4{
