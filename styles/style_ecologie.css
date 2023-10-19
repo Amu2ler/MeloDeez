@@ -37,6 +37,12 @@
     transition-duration: 0.8s;
 }
 
+#melodeez-logo{
+    width: 80%;
+    position: relative;
+    left: 20px;
+  }
+
 #scroll-up{
     width: 20%;
   }
