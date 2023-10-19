@@ -55,7 +55,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : RICHARD Florian**
 
-Vérification W3C : [Détail ICI]()
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fhits.html)
 
 ![capture d'écran de la conformité de la page ...]()
 
@@ -87,9 +87,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : MULLER Arthur & BOUCHE Natan**
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fenvironnement.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fecologie.html)
 
-![capture d'écran de la conformité de la page ...](w3c/environnement-verif.png)
+![capture d'écran de la conformité de la page ...](w3c/ecologie-verif.png)
 
 ## Répartition du travail
 
@@ -100,7 +100,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ### Planification - Diagramme de GANTT
 
-- MULLER Arthur (100%)
+- MULLER Arthur (90%)
+- ROSE Mathéo (10%)
 
 ### Fiche de Présentation de l'entreprise
 - ROSE Mathéo (100%)
@@ -131,6 +132,11 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 - RICHARD Florian (20%)
 - BOUCHE Natan (20%)
 
+### Traduction
+
+- MULLER Arthur (50%)
+- BOUCHE Natan (50%)
+
 ### Développement site
 
 - ROSE Mathéo
@@ -148,7 +154,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 - RICHARD Florian
   - Page hits
-  - Page écologie
+  - Page histoire
 
 - BOUCHE Natan
   - Page économie
