@@ -40,15 +40,15 @@
 
 #scroll-up{
     width: 20%;
-  }
+}
   
-  #scrollUp
-  {
+#scrollUp
+{
   position: fixed;
   bottom : 10px;
   right: -130px;
   opacity: 0.5;
-  }
+}
 
 #page-actuelle{
     opacity: 1;
@@ -70,29 +70,48 @@
     display: flex;
     margin-left: 45%;
 }
-
 .explication {
-    margin-left: 15%;
-    margin-right: -3%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 .explication1 {
-    margin-left: 9%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
-.explication2{
-    display: flex;
-    margin-left: 15%;
+.explication2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
 }
-.explication3{
-    display: flex;
-    margin-left: 4%;
+
+.explication3 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 .top1 {
-    display: flex;
-    margin-left: 38%; 
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
 }
+
+.titre1 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.titre2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 
 .deezertop {
     display: flex;
