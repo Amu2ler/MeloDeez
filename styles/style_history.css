@@ -124,7 +124,7 @@ body::before {
 .vertical-line {
    width: 2px;
    background: #ccc;
-   margin: 0 20px; 
+   margin: 0 40px; 
 }
 
 .content1, .content2, .content3, .content4, .image {
@@ -164,8 +164,9 @@ h2 {
    margin-bottom: 10px;
 }
 
-/* FOOTER */
 
+
+/* FOOTER */
 footer{
    position: relative;
    background: #000000;
