@@ -11,14 +11,34 @@
 </head>
 
 <body class="body">
+
+    <script>
+        jQuery(function(){
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100 ) { 
+                        $('#scrollUp').css('right','10px');
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' );
+                    }
+                });
+            });
+        });
+    </script>
+
+    <div id="scrollUp">
+        <a href="#top"><img id="scroll-up" src="../img/scroll-up.png"/></a>
+    </div>
+
     <div class="nav">
         <ul>
-            <li><a href="histoire.html">Histoire</a></li>
+            <li><a id="top" href="histoire.html">Histoire</a></li>
             <li><a href="offres.html">Offres/Services</a></li>
-            <li><a href="hits.html">Hits du Moment</a></li>
+            <li><a href="hits.html">Hits</a></li>
+            <a href="../index.html"><img id="melodeez-logo" src="../img/logomelodeez-removebg-preview.png" ></a>
             <li><a href="economie.html">Économie</a></li>
             <li><a href="environnement.html">Environnement</a></li>
-            <li><a href="anglais_social.html">Anglais</a></li>
+            <li><a href="anglais_social.html">EN</a></li>
         </ul>
     </div>
 
@@ -30,15 +50,11 @@
         <div class="cartes">
             <div class="ligne-1">
                 <div class="book">
-                    <p>PDG</p>
+                    <p><strong>PDG</strong></p>
                     <div class="cover">
                         <img id="image-1" src="../img/jeronimo-folgueira.jpg">
                         <p id="titre-1" class="titre-carte">Jeronimo FOLGUEIRA</p>
                     </div>
-                    <p>Son âge: 41 ans
-                        </br>Il a rejoint Deezer en mai 2022 au poste de PDG          
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/jeronimofolgueira">Son Linkedin</a></li> 
                 </div>
 
                 <div class="book">
@@ -47,10 +63,6 @@
                         <p id="titre-2" class="titre-carte">Gitte BENDZULLA</p>
                         <img id="image-2" src="../img/Gitte-Bendzulla.jpg">
                     </div>
-                    <p>Son âge: 46 ans
-                        </br>Elle a rejoint Deezer en avril 2021
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/gitte-bendzulla-">Son Linkedin</a></li> 
                 </div>
 
                 <div class="book">
@@ -59,10 +71,6 @@
                         <p id="titre-3" class="titre-carte">Emilie DUQUENNE</p>
                         <img id="image-3" src="../img/emilie-duquenne.jpg">
                     </div>
-                    <p>Son âge: 42 ans
-                        </br>Elle a rejoint Deezer en 2019
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/emilieduquenne">Son Linkedin</a></li> 
                 </div>
             </div>
             <div class="ligne-2">
@@ -71,10 +79,7 @@
                     <div class="cover">
                         <p id="titre-4" class="titre-carte">Matthieu GORVAN</p>
                         <img id="image-4" src="../img/Matthieu-Gorvan.jpg">
-                    </div> 
-                    <p> Il a été rejoint Deezer en 2016
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/matthieugorvan">Son Linkedin</a></li>
+                    </div>
                 </div>
 
                 <div class="book">
@@ -83,9 +88,6 @@
                         <p id="titre-5" class="titre-carte">Mark ODY</p>
                         <img id="image-5" src="../img/mark-ody.png">
                     </div>
-                    <p>Son âge: 55 ans
-                    </br>Il a rejoint Deezer en 2007 à sa création
-                </p>
                 </div>
 
                 <div class="book">
@@ -94,10 +96,6 @@
                         <p id="titre-6" class="titre-carte">Aurélien HERAULT</p>
                         <img id="image-6" src="../img/Aurelien-Herault.jpg">
                     </div>
-                    <p>Son âge: 34 ans
-                        </br>Il a rejoint Deezer en 2007 à sa création
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/aurelienherault">Son Linkedin</a></li>
                 </div>
             </div>
             <div class="ligne-3">
@@ -107,10 +105,6 @@
                         <p id="titre-7" class="titre-carte">Stéphane ROUGEOT</p>
                         <img id="image-7" src="../img/Stephane-Rougeot.webp">
                     </div>
-                    <p>Son âge: 54 ans
-                        </br>Il a été nommée en janvier 2021 à son poste actuel
-                    </p>
-                    <li><a href="https://fr.linkedin.com/in/stephane-rougeot-6313b066">Son Linkedin</a></li>
                 </div>
             </div>
         </div>

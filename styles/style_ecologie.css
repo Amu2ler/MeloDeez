@@ -37,6 +37,24 @@
     transition-duration: 0.8s;
 }
 
+#melodeez-logo{
+    width: 80%;
+    position: relative;
+    left: 20px;
+  }
+
+#scroll-up{
+    width: 20%;
+  }
+  
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -130px;
+  opacity: 0.5;
+  }
+
 
 
 .box1 {
@@ -104,6 +122,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: -1;
 }
 
 .footer .social_icon, footer .menu{
