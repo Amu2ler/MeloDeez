@@ -64,9 +64,9 @@ h2{
 }
 
 #melodeez-logo{
-    width: 80%;
+    width: 180%;
     position: relative;
-    left: 20px;
+    right: 20px;
   }
 
 #lien-histoire{
@@ -109,6 +109,10 @@ h2{
     color: #fff;
     opacity: 1;
   }
+
+#EN{
+    opacity: 0.5;
+}
 
 
 /*CONTENU*/
