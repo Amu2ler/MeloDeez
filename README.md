@@ -57,7 +57,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fhits.html)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page ...](w3c/hits-verif.png)
 
 ### Page Economie
 
