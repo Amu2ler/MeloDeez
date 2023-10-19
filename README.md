@@ -65,6 +65,8 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ## Répartition du travail
 
+### README
+
 ### Planification - Diagramme de GANTT
 
 - MULLER Arthur (100%)
