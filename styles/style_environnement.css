@@ -159,8 +159,6 @@ h2{
 .btn{
     background-color: rgb(170, 114, 12);
     display: center;
-    width: 350px;
-    height: 85px;
     padding: 5px 5px;
     /* border: 1px solid black; */
     border-radius: 5px;
