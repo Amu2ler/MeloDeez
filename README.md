@@ -63,9 +63,9 @@ Vérification W3C : [Détail ICI]()
 
 **Auteur : BOUCHE Natan**
 
-Vérification W3C : [Détail ICI]()
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Feconomie.html)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page ...](w3c/economie-verif.png)
 
 ### Page Environnement
 
@@ -77,15 +77,15 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ### Page Social
 
-**Auteur : ROSE Mathéo**
+**Auteur : ROSE Mathéo & MULLER Arthur**
 
-Vérification W3C : [Détail ICI]()
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fsocial.html)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page ...](w3c/social-verif.png)
 
 ### Page Ecologie
 
-**Auteur : BOUCHE Natan**
+**Auteur : MULLER Arthur & BOUCHE Natan**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fenvironnement.html)
 
