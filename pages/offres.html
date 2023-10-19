@@ -9,6 +9,24 @@
 
 <body class="body">
 
+    <script>
+        jQuery(function(){
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100 ) { 
+                        $('#scrollUp').css('right','10px');
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' );
+                    }
+                });
+            });
+        });
+    </script>
+
+    <div id="scrollUp">
+        <a href="#page-actuelle"><img id="scroll-up" src="../img/scroll-up.png"/></a>
+    </div>
+
     <div class="background-image"></div>
 
     <div class="nav">
@@ -116,7 +134,7 @@
     
     <div class="block_services">
         <div class="image-1"> 
-            <img class="flow" src="../img/flow.jpg"> 
+            <img class="flow" src="../img/flow.jpg" alt="image flow"> 
         </div>
         <div class="texte-droite">
             <h1>Flow</h1>
@@ -136,13 +154,13 @@
             </p>
         </div>
         <div class="image-2"> 
-                <img class="song-catch" src="../img/song-catcher.webp"> 
+                <img class="song-catch" src="../img/song-catcher.webp" alt="song catcher"> 
         </div>
     </div>
 
     <div class="block_services">
         <div class="image-3"> 
-            <img class="zen" src="../img/zen.jpg"> 
+            <img class="zen" src="../img/zen.jpg" alt="image zen"> 
         </div>
         <div class="texte-droite-2">
             <h1>Zen</h1>
@@ -158,21 +176,21 @@
          rapidement que possible en tapant la réponse dans un délai imparti. 
          Le Blind Test de Deezer propose généralement une grande variété de genres musicaux et d'artistes. 
          Vous pouvez ainsi tester vos connaissances sur un large éventail de morceaux de musique. </p>
-    <img class="blind-test" src="../img/blind-test.webp">
+    <img class="blind-test" src="../img/blind-test.webp" alt="blind test">
 
     <footer>
        <ul class="social_icon">
                <a class="lien-réseaux" href="https://fr-fr.facebook.com/Deezer/">
-                  <img class="facebook" src="../img/logo-facebook.png">
+                  <img class="facebook" src="../img/logo-facebook.png" alt="facebook">
                </a>
                <a class="lien-réseaux" href="https://twitter.com/deezer">
-                  <img class="twitter" src="../img/logo-twitter.png">
+                  <img class="twitter" src="../img/logo-twitter.png" alt="twitter">
                </a>
                <a class="lien-réseaux" href="https://www.instagram.com/deezer">
-                  <img class="instagram" src="../img/logo-instagram.png">
+                  <img class="instagram" src="../img/logo-instagram.png" alt="instagram">
                </a>
                <a class="lien-réseaux" href="https://fr.linkedin.com/company/deezer">
-                  <img class="linkedin" src="../img/logo-linkedin.png">
+                  <img class="linkedin" src="../img/logo-linkedin.png" alt="linkedin">
                </a>
        </ul>
        <p> page réalisée par mathéo rose à l'occasion de la Saé 1.05-06.</p>

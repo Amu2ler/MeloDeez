@@ -68,6 +68,18 @@ html {
   left: 600px;
 }
 
+#scroll-up{
+  width: 20%;
+}
+
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -130px;
+opacity: 0.5;
+}
+
 /* BODY */
 
 h1{

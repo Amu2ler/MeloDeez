@@ -56,6 +56,18 @@ h1{
     z-index: -2;
   }
 
+  #scroll-up{
+    width: 20%;
+  }
+
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -130px;
+  opacity: 0.5;
+  }
+
 /*CONTENU*/
 
 
@@ -271,6 +283,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: -1;
 }
 
 footer .social_icon, footer .menu{
