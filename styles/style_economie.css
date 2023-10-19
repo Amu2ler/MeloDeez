@@ -50,6 +50,10 @@ right: -130px;
 opacity: 0.5;
 }
 
+#page-actuelle{
+  opacity: 1;
+}
+
 .Titre1{
   display: flex;
   margin: auto;
