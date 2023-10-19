@@ -1,5 +1,5 @@
 body{
-background-image: url("../img/background_history.png");
+background-image: url("../img/imagefondhistoire.jpg");
 color: white; 
 
 font-family: "Helvetica", sans-serif;
@@ -191,8 +191,57 @@ align-items: center;
 }
 
 
+.tableau{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px 400px;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(400px, auto);
+}
 
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+}
 
+.two{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four{
+    grid-column: 3;
+    grid-row: 2;
+    text-align: justify;
+}
+
+.five{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: justify;
+}
+
+.six{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.seven{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.eight{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: justify;
+}
 
 
 

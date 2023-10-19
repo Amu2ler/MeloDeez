@@ -9,6 +9,7 @@
     <title>MeloDeez-Social</title>
     <link rel="stylesheet" type="text/css" href="../styles/style_social.css">
 </head>
+
 <body class="body">
     <div class="nav">
         <ul>
@@ -19,61 +20,113 @@
             <li><a href="environnement.html">Environnement</a></li>
         </ul>
     </div>
-    <h1>Social</h1>
-    <div class="tableau">
-        
-        <div class="one">
-            <h1>Une Équipe Diversifiée</h1>
-            <p> 
-                Deezer compte environ 700 employés à travers le monde. 
-                L'âge moyen parmi les collaborateurs du groupe Deezer était de 34 ans en 2021. 
-                L’ancienneté moyenne des salariés était elle de 3,4 ans en moyenne, 
-                un chiffre en hausse dans les statistiques de ces dernières années.
-            </p>
-        </div>
 
-        <div class="two"> 
-            <img class="image-1" src="../img/employes.webp" alt="Image Employés"> 
-        </div>
+    <div class="background-image"></div>
 
-        <div class="three"> 
-            <img class="image-2" src="" alt="Image Formation"> 
-        </div>
-        <div class="four">
-            <h1>Conditions de Travail Favorables </h1>
-            <p> 
-                Les conditions de travail chez Deezer sont conçues pour promouvoir la créativité, 
-                la collaboration et le bien-être des employés. Cela se traduit par des horaires flexibles, 
-                des opportunités de télétravail et une politique de congé parental généreuse.
-            </p>
-        </div>
-        
-        <div class="five">
-            <h1>Diversité et Égalité</h1>
-            <p> 
-                Deezer s'engage à promouvoir l'égalité entre hommes et femmes 
-                et encourage la participation des femmes à des postes de direction.
-                L'entreprise participe activement à des initiatives liées à la responsabilité sociale des entreprises (RSE).
-            </p>
-        </div>
-        <div class="six"> 
-            <img class="image-3" src="" alt="Image Conditions de travail"> 
-        </div>
-        
+    <div class="Mathéo">
+        <h1>Social</h1>
+        <h2 id="titre">Figures importantes de Deezer</h2>
+        <div class="cartes">
+            <div class="ligne-1">
+                <div class="book">
+                    <p>PDG</p>
+                    <div class="cover">
+                        <img id="image-1" src="../img/jeronimo-folgueira.jpg">
+                        <p id="titre-1" class="titre-carte">Jeronimo FOLGUEIRA</p>
+                    </div>
+                </div>
 
-        <div class="seven"> 
-            <img class="image-4" src="" alt="Image graphique rémunération"> 
-        </div>
-        <div class="eight">
-            <h1>Santé Mentale et Accessibilité</h1>
-            <p> 
-                La santé mentale des employés est une priorité pour Deezer. 
-                L'entreprise offre des programmes de soutien psychologique et une hotline téléphonique disponible 24h/24. 
-                Deezer s'efforce également de rendre la musique accessible à tous, y compris aux personnes malentendantes.
-            </p>
+                <div class="book">
+                    <p>chef des opérations</p>
+                    <div class="cover">
+                        <p id="titre-2" class="titre-carte">Gitte BENDZULLA</p>
+                        <img id="image-2" src="../img/Gitte-Bendzulla.jpg">
+                    </div>
+                </div>
+
+                <div class="book">
+                    <p>Ressources Humaines</p>
+                    <div class="cover">
+                        <p id="titre-3" class="titre-carte">Emilie DUQUENNE</p>
+                        <img id="image-3" src="../img/emilie-duquenne.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="ligne-2">
+                <div class="book">
+                    <p>service technologique</p>
+                    <div class="cover">
+                        <p id="titre-4" class="titre-carte">Matthieu GORVAN</p>
+                        <img id="image-4" src="../img/Matthieu-Gorvan.jpg">
+                    </div>
+                </div>
+
+                <div class="book">
+                    <p>service marketing</p>
+                    <div class="cover">
+                        <p id="titre-5" class="titre-carte">Mark ODY</p>
+                        <img id="image-5" src="../img/mark-ody.png">
+                    </div>
+                </div>
+
+                <div class="book">
+                    <p>service innovation</p>
+                    <div class="cover">
+                        <p id="titre-6" class="titre-carte">Aurélien HERAULT</p>
+                        <img id="image-6" src="../img/Aurelien-Herault.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="ligne-3">
+                <div class="book">
+                    <p>service financier</p>
+                    <div class="cover">
+                        <p id="titre-7" class="titre-carte">Stéphane ROUGEOT</p>
+                        <img id="image-7" src="../img/Stephane-Rougeot.webp">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-     
+    
+    <div class="Arthur">
+        <div class="introduction">
+            <h2 style="text-align: center;">Nous avons eu le privilège d'interviewer un salarié de Deezer lors d'une visioconférence. Découvrez ses réponses aux questions ci-dessous :</h2>
+        </div>
+        <div class="questionnaire">
+            <div class="question">
+                <h3 onclick="toggleAnswer(1)">Question 1 : Pouvez-vous nous parler de votre parcours professionnel chez Deezer et de ce qui vous a amené à rejoindre cette entreprise ?</h3>
+                <div class="answer" id="answer1">Mon parcours professionnel chez Deezer a débuté après avoir terminé mon programme en informatique à Paris. J'ai rejoint l'entreprise en tant que <strong>développeur junior</strong>, où j'ai eu l'occasion de travailler sur divers projets passionnants. J'ai toujours été fasciné par la musique et la technologie, ce qui a fait de Deezer le choix idéal pour moi.</div>
+            </div>
+    
+            <div class="question">
+                <h3 onclick="toggleAnswer(2)">Question 2 : Quelles qualités appréciez-vous le plus chez vos collègues et quelles attentes avez-vous d'eux ?</h3>
+                <div class="answer" id="answer2">J'apprécie la <strong>collaboration</strong> et la <strong>bonne entente</strong> au sein de notre équipe. Pour moi, l'<strong>efficacité et la rigueur</strong> sont des qualités essentielles. Je m'attends à ce que mes collègues partagent ces valeurs et travaillent ensemble de manière à atteindre nos <strong>objectifs communs</strong>.</div>
+            </div>
+    
+            <div class="question">
+                <h3 onclick="toggleAnswer(3)">Question 3 : Comment la pandémie de COVID-19 a-t-elle influencé votre mode de travail chez Deezer et les relations avec vos collègues ?</h3>
+                <div class="answer" id="answer3">La crise du COVID-19 a été gérée efficacement grâce au télétravail, ce qui a permis à notre équipe de rester productive. <strong>La relation avec mes collègues est excellente</strong>, même à distance. Nous avons su maintenir une <strong>communication constante</strong> et résoudre les problèmes ensemble.</div>
+            </div>
+    
+            <div class="question">
+                <h3 onclick="toggleAnswer(4)">Question 4 : En tant qu'aspirant chef de projet, quels sont vos objectifs à l'avenir au sein de Deezer ?</h3>
+                <div class="answer" id="answer4">Mon objectif principal est de monter en grade et devenir chef de projet. Je souhaite contribuer davantage à la gestion de projets et à la direction de l'entreprise. Je suis déterminé à continuer à développer mes compétences en gestion et en leadership pour atteindre cet objectif.</div>
+            </div>
+    
+            <div class="question">
+                <h3 onclick="toggleAnswer(5)">Question 5 : "La rapidité crée parfois des problèmes, mais la rigueur est très utile." Comment appliquez-vous cette philosophie dans votre travail chez Deezer ?</h3>
+                <div class="answer" id="answer5">Cette philosophie résonne en moi. Ma rapidité peut parfois causer des erreurs, c'est pourquoi je m'efforce d'être rigoureux dans mes tâches. J'accorde une grande importance à la <strong>précision et à l'organisation</strong>, ce qui est essentiel pour garantir la qualité de notre travail chez Deezer.</div>
+            </div>
+    
+            <div class="question">
+                <h3 onclick="toggleAnswer(6)">Question 6 : Pouvez-vous nous parler des défis auxquels vous faites face dans votre rôle quotidien chez Deezer ?</h3>
+                <div class="answer" id="answer6">En tant que développeur, les défis incluent souvent la résolution de problèmes techniques complexes et la gestion de délais serrés. De plus, je travaille sur l'amélioration de mes compétences en gestion pour progresser vers un poste de chef de projet. Cela implique de jongler entre le développement technique et les responsabilités de gestion, ce qui peut être exigeant mais gratifiant.</div>
+            </div>
+        </div>
+    </div>
+
+    
     <footer>
         <ul class="social_icon">
                 <a class="lien-réseaux" href="https://fr-fr.facebook.com/Deezer/">
@@ -89,7 +142,19 @@
                    <img class="linkedin" src="../img/logo-linkedin.png">
                 </a>
         </ul>
-        <p>Cette page a été réalisée par Mathéo ROSE lors de la SAÉ 1.05/1.06</p>
+        <p> Page réalisée par : Mathéo ROSE & Arthur MULLER  | SAÉ 1.05/1.06</p>
     </footer>
+
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.getElementById('answer' + questionNumber);
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        }
+    </script>
+    
 </body>
 </html>

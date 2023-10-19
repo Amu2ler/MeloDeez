@@ -2,17 +2,19 @@ body {
     background-color: black;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: xx-normal;
-    text-align: center;
 }
 
+h1{
+    display: center;
+    margin-left: 45%;
+}
 /*NAV*/
 
 .nav{
     display: flex;
     justify-content: center; 
     width: 100%;
-padding: 30px 0;
+    padding: 30px 0;
 }
 
 .nav ul {
@@ -42,64 +44,220 @@ padding: 30px 0;
     transition-duration: 0.8s;
 }
 
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/imagefondsocial.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
 
 /*CONTENU*/
 
-.tableau{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px 400px;
-    grid-gap: 10px;
-    grid-auto-rows: minmax(400px, auto);
+
+/*MATHEO*/
+
+#titre{
+    text-align: center;
 }
 
-.one{
-    grid-column: 1;
-    grid-row: 1;
-    text-align: justify;
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  .titre-carte{
+    font-size: 20px;
+    font-weight: bolder;
+    order: 1;
+  }
+
+  #titre-1{
+    position: relative;
+    right: 2px;
+  }
+
+  #titre-2{
+    position: relative;
+    right: 23px;
+  }
+
+  #titre-3{
+    position: relative;
+    right: 22px;
+  }
+
+  #titre-4{
+    position: relative;
+    right: 24px;
+  }
+
+  #titre-5{
+    position: relative;
+    right: 68px;
+  }
+
+  #titre-6{
+    position: relative;
+    right: 20px;
+  }
+
+  #titre-7{
+    position: relative;
+    right: 10px;
+  }
+
+  .ligne-1{
+    padding-left: 10%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .ligne-2{
+    padding-left: 10%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .ligne-3{
+    display: flex;
+    margin-left: 41%;
+  }
+
+  #image-1{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-2{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-3{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-4{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-5{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-6{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+  #image-7{
+    width: 70%;
+    position: relative;
+    right: 36px;
+  }
+
+
+/*ARTHUR*/
+.Arthur {
+    background-color: #000000; 
+    padding: 10px; 
+    border-radius: 10px 10px 0px 0px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-top: 120px;
 }
 
-.image-1{
-    width: 80%;
+.question {
+    margin: 10px 5%;
+    cursor: pointer;
+    background-color: #1E1E1E;
+    padding: 30px;
+    border-radius: 5px;
 }
 
-.two{
-    grid-column: 2;
-    grid-row: 1;
+.question h3 {
+    margin: 0;
+    color: #FF6C40; 
+    font-weight: bold;
+    font-size: 1.2em; 
 }
 
-.three{
-    grid-column: 1;
-    grid-row: 2;
+.answer {
+    display: none;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: #1E1E1E; 
+    border-radius: 5px; 
 }
 
-.four{
-    grid-column: 2;
-    grid-row: 2;
-    text-align: justify;
+.Arthur h3 {
+    text-align: center; 
+    color: palevioletred;
 }
 
-.five{
-    grid-column: 1;
-    grid-row: 3;
-    text-align: justify;
-}
-
-.six{
-    grid-column: 2;
-    grid-row: 3;
-}
-
-.seven{
-    grid-column: 1;
-    grid-row: 4;
-}
-
-.eight{
-    grid-column: 2;
-    grid-row: 4;
-    text-align: justify;
-}
 
 /*FOOTER*/
 
