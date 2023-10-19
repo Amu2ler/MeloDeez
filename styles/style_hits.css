@@ -83,6 +83,11 @@
     display: flex;
     margin-left: 45%;
 }
+.Titre1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 
 .explication {
     text-align: center;
