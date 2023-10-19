@@ -39,9 +39,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : MULLER Arthur & RICHARD Florian**
 
-Vérification W3C : [Détail ICI]()
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fhistoire.html)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page ...](w3c/histoire-verif.png)
 
 ### Page Offres
 
