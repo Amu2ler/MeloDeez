@@ -115,12 +115,14 @@ a[href^="#"]{
    padding: 20px;
    text-align: justify;
 }
+
+/*barre*/
 body::before {
    content: "";
    position: absolute;
    top: 40%;
    bottom: 0;
-   left: 40.1rem;
+   left: 950px;
    transform: translateX(-1px); /* Pour centrer la ligne */
    width: 5px;
    background: #ffffff;
@@ -194,15 +196,6 @@ h2 {
    margin-bottom: 10px;
 }
 
-.timeline-item::before {
-   content: "";
-   position: absolute;
-   width: 45px;
-   height: 45px;
-   background: #fff;
-   border-radius: 50%;
-   z-index: 1;
-}
 
 .timeline-item:nth-child(odd)::before {
    left: 40rem;
