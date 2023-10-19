@@ -27,7 +27,9 @@ positionnement économique et/ou écologique d’une entreprise du secteur numé
 
 ![capture d'écran de la conformité de la page ...]()
 
+- Page Offres: [Détail ICI]()
 
+![capture d'écran de la conformité de la page ...]()
 
 ## Présentation 
 
