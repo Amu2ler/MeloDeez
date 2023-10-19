@@ -77,6 +77,7 @@ position: fixed;
 bottom : 10px;
 right: -130px;
 opacity: 0.5;
+z-index: 2;
 }
 
 /* BODY */
@@ -486,7 +487,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: -1;
+    z-index: 1;
 }
 
 footer .social_icon, footer .menu{

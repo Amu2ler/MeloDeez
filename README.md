@@ -23,6 +23,9 @@ positionnement économique et/ou écologique d’une entreprise du secteur numé
 
  - - - - - - - - - - - - - - 
 ## Vérification W3C
+- Page Environnement: [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fenvironnement.html)
+
+![capture d'écran de la conformité de la page ...]()
 
 
 
