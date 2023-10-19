@@ -40,7 +40,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : ROSE Mathéo**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#file)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/https://github.com/Amu2ler/Halliut/blob/main/index.html)
 
 
 ![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
