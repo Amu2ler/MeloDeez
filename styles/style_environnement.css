@@ -3,9 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-color:black;
-    color: white; 
+
+body {
+    background-color: black;
+    color: white;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -35,74 +36,40 @@ h2{
     justify-content: center; 
     width: 100%;
     padding: 30px 0;
-    }
-    
+}
+
 .nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
-    
+
 .nav li {
-        margin: 0 10px;
+    margin: 0 10px;
 }
-    
+
 .nav a {
-        text-decoration: none;
-        margin: 0 35px;
-        color: white;
-        font-weight: bold;
-        font-size: x-large;
+    text-decoration: none;
+    margin: 0 35px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: x-large;
 }
-    
+
 .nav a:hover {
-        color: white;
-        opacity: 1;
-        transition-duration: 0.8s;
+    color: white;
+    opacity: 1;
+    transition-duration: 0.8s;
 }
 
 #melodeez-logo{
-    width: 150px;
+    width: 80%;
     position: relative;
+    left: 20px;
   }
-
-#lien-histoire{
-    color: #fff;
-    opacity: 0.5;
-}
-
-#lien-histoire:hover{
-    opacity: 1;
-}
-
-#lien-offres{
-    color: #fff;
-    opacity: 0.5;
-}
-
-#lien-offres:hover{
-    opacity: 1;
-}
-
-#lien-hits{
-    color: #fff;
-    opacity: 0.5;
-}
-
-#lien-hits:hover{
-    opacity: 1;
-}
-
-#lien-economie{
-    color: #fff;
-    opacity: 0.5;
-}
-
-#lien-economie:hover{
-    opacity: 1;
-}
 
 #page-actuelle{
     color: #fff;

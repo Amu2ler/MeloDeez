@@ -1,8 +1,19 @@
 body{
    background-image: url("../img/imagefondhistoire.jpg");
-   color: white; 
-   
+   color: white;
    font-family: "Helvetica", sans-serif;
+}
+
+.background-image {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url('../img/imagefondhistoire.jpg');
+   background-size: cover;
+   background-position: center;
+   z-index: -2;
 }
    
 h1{
@@ -88,7 +99,7 @@ a[href^="#"]{
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 20px;
+   margin: 40px;
 }
 
 .timeline-item {
@@ -124,13 +135,13 @@ body::before {
 .vertical-line {
    width: 2px;
    background: #ccc;
-   margin: 0 20px; 
+   margin: 0 40px; 
 }
 
 .content1, .content2, .content3, .content4, .image {
    width: 50%;
    padding: 20px;
-   text-align: justify;
+   text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -164,8 +175,9 @@ h2 {
    margin-bottom: 10px;
 }
 
-/* FOOTER */
 
+
+/* FOOTER */
 footer{
    position: relative;
    background: #000000;

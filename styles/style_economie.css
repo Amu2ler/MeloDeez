@@ -155,7 +155,7 @@ a{
   font-weight: 500;
 }
 
-#imgCartes{
+.imgCartes{
   max-width: 70%;
 }
 
@@ -214,7 +214,7 @@ a{
 
   100% {
     opacity: 0.3;
-  }
+  }conomie.html
 }
 
 /* Bouton "en savoir plus" derriere les cartes */
@@ -358,7 +358,8 @@ footer .social_icon .box {
 
 .box :first-child {
     align-self: center;
-}a:hover{
+}
+footer a:hover{
     transform: translateY(-10px)
 }
 
