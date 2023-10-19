@@ -61,6 +61,12 @@ h2{
     transition-duration: 0.8s;
 }
 
+#melodeez-logo{
+    width: 80%;
+    position: relative;
+    left: 20px;
+  }
+
 #logo-melodeez{
     width: 20%;
     height: 20%;

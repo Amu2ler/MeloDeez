@@ -11,6 +11,25 @@
 </head>
 
 <body class="body">
+
+    <script>
+        jQuery(function(){
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100 ) { 
+                        $('#scrollUp').css('right','10px');
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' );
+                    }
+                });
+            });
+        });
+    </script>
+
+    <div id="scrollUp">
+        <a href="#page-actuelle"><img id="scroll-up" src="../img/scroll-up.png"/></a>
+    </div>
+
     <div class="nav">
         <ul>
             <li><a href="history.html">History</a></li>

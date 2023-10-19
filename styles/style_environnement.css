@@ -63,6 +63,12 @@ h2{
         transition-duration: 0.8s;
 }
 
+#melodeez-logo{
+    width: 220%;
+    position: relative;
+    right: 40px;
+  }
+
 #lien-histoire{
     color: #fff;
     opacity: 0.5;
@@ -103,6 +109,10 @@ h2{
     color: #fff;
     opacity: 1;
   }
+
+#EN{
+    opacity: 0.5;
+}
 
 
 /*CONTENU*/
