@@ -80,7 +80,7 @@ h1{
 .book {
     position: relative;
     border-radius: 10px;
-    width: 220px;
+    width: 250px;
     height: 300px;
     background-color: whitesmoke;
     -webkit-box-shadow: 1px 1px 12px #000;
@@ -95,6 +95,10 @@ h1{
     flex-direction: center;
     justify-content: center;
     color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   
   .cover {
@@ -268,6 +272,26 @@ h1{
 .Arthur h3 {
     text-align: center; 
     color: palevioletred;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.info ul li {
+  margin: 5px 0;
+}
+
+.info ul li a {
+  text-decoration: none;
+  color: #00f;
+}
+
+.info ul li a:hover {
+  color: #f00;
 }
 
 
