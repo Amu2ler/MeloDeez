@@ -62,18 +62,15 @@ body {
     text-align: center;
 }
 
-.tableau{
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-}
-
-.col-md-4{
-    margin-bottom: 20px;
-    padding-top: 70px;
-}
-
-.table table-striped table-dark{
-    margin-left: 20px !important;
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+.img{
+    margin-top: 30px !important;
+    padding-top: 30px !important;
 }
 
 
