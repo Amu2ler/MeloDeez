@@ -224,23 +224,26 @@ a{
 /* Bouton "en savoir plus" derriere les cartes */
 
 .card-button {
-   transform: translate(-50%, 125%);
-   width: 60%;
-   background-color: rgb(5, 6, 45);
-   font-size: 1rem;
-   padding: .3rem 1rem;
-   position: absolute;
-   left: 50%;
-   height:30px;
-   font-size:12px;
-   color: white;
-   bottom: 0;
-   opacity: 0;
-   transition: 0.3s ease-out;
-   border-image: linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
-   border-image-slice: 1;
-   border-radius: 10px;
-   cursor: pointer;
+  transform: translate(-50%, 125%);
+  width: 50%;
+  background-color: rgb(5, 6, 45);
+  padding: .3rem 1rem;
+  position: absolute;
+  left: 50%;
+  height: 15px;
+  font-size: 15px;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  text-align: center;
+  border: 3px solid transparent; /* Bordure transparente */
+  border-radius: 0;
+  text-decoration: none;
+
+  border-image: linear-gradient(rgb(255, 177, 33), rgb(186, 47, 70));
+  border-image-slice: 1; 
+  border-image-width: 1;
 }
 .backSide .card-button {
    transform: translate(-50%, 50%);
