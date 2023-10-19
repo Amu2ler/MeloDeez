@@ -70,6 +70,7 @@
     display: flex;
     margin-left: 45%;
 }
+
 .explication {
     text-align: center;
     margin: 0 auto;
@@ -84,34 +85,22 @@
 
 .explication2 {
     text-align: center;
-    margin: 0 auto;
+    display: flex;
+    margin-left: 15%;
     max-width: 80%;
 }
 
 .explication3 {
     text-align: center;
-    margin: 0 auto;
-    max-width: 70%;
+    display: flex;
+    margin-left: 5%;
+    max-width: 100%;
 }
 
 .top1 {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 100%;
+    display: flex;
+    margin-left: 40%; 
 }
-
-.titre1 {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.titre2 {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
 
 .deezertop {
     display: flex;
