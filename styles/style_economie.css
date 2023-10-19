@@ -1,6 +1,8 @@
+/* Barre de navigation */
+
 .nav{
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
   padding: 30px 0;
 }
@@ -54,11 +56,26 @@ opacity: 0.5;
   opacity: 1;
 }
 
+/* Parametres généraux du corps */
+
+body{
+  background-color: black ;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+}
+a{
+  color: white;
+}
+
+/* Titre "L'économie de Deezer" */
+
 .Titre1{
   display: flex;
   margin: auto;
   justify-content: center;
 }
+
+/* Titre "Actionnaires" */
 
 .Titre2{
   display: flex;
@@ -67,21 +84,31 @@ opacity: 0.5;
   justify-content: center;
 }
 
-body{
-  background-color: black ;
-  color: white;
-  font-family: "Helvetica", sans-serif;
+/* Image de fond */
+
+.background-image{
+  background-image: url("batiment-deezer.jpg");
+  filter: brightness(20%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
 }
-img {
-    max-width: 100%;
-    margin-left: 0px;
+
+/* Titre Actionnaires */
+
+.title2{
+  font-size: 1em;
+  font-weight: 500;
+  text-align: right;
+  margin: 0;
 }
-a{
-  color: white;
-}
-#imgCartes{
-  max-width: 70%;
-}
+
+/* Cartes Actionnaires */
 
 .myCard {
   background-color: transparent;
@@ -105,7 +132,7 @@ a{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  
+
 }
 
  .myCard:hover .innerCard {
@@ -124,17 +151,12 @@ a{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border: 3px solid transparent;
-
-  
-
   box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
   font-weight: 500;
 }
-.title2{
-  font-size: 1em;
-  font-weight: 500;
-  text-align: right;
-  margin: 0;
+
+#imgCartes{
+  max-width: 70%;
 }
 
 .frontSide,
@@ -151,14 +173,12 @@ a{
   border-image: linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
   border-image-slice: 1;
   border-radius: 10px;
-  font-size: auto;
-  text-align: justify;
+  font-size: 15px;
+  text-align:left;
 }
-
 .backSide {
   transform: rotateY(180deg);
 }
-
 .frontSide::before,
 .backSide::before {
   top: 50%;
@@ -172,9 +192,15 @@ a{
   filter: blur(20px);
   animation: animate 5s linear infinite;
 }
-.backSide p{
+.backSide .textCard{
     margin: auto;
    width: 90%;
+   margin-top: 20px;
+}
+.backSide .title{
+  display: flex;
+  margin-top: 25px;
+  align-items: auto;
 }
 
 @keyframes animate {
@@ -190,32 +216,46 @@ a{
     opacity: 0.3;
   }
 }
+
+/* Bouton "en savoir plus" derriere les cartes */
+
 .card-button {
- transform: translate(-50%, 125%);
- width: 60%;
- background-color: rgb(5, 6, 45);
- font-size: 1rem;
- padding: .3rem 1rem;
- position: absolute;
- left: 50%;
- height:30px;
- font-size:12px;
- color: white;
- bottom: 0;
- opacity: 0;
- transition: 0.3s ease-out;
-
- border-image: linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
- border-image-slice: 1;
- border-radius: 10px;
-
- cursor: pointer;
-
+   transform: translate(-50%, 125%);
+   width: 60%;
+   background-color: rgb(5, 6, 45);
+   font-size: 1rem;
+   padding: .3rem 1rem;
+   position: absolute;
+   left: 50%;
+   height:30px;
+   font-size:12px;
+   color: white;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.3s ease-out;
+   border-image: linear-gradient(rgb(255, 177, 33),rgb(186, 47, 70));
+   border-image-slice: 1;
+   border-radius: 10px;
+   cursor: pointer;
 }
 .backSide .card-button {
- transform: translate(-50%, 50%);
- opacity: 1;
+   transform: translate(-50%, 50%);
+   opacity: 1;
 }
+
+/* Permet de positionner la premiere carte */
+
+.positionnement{
+    display: center;
+    margin: auto;
+    width: 800px;
+    height : auto ;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+/* Box qui contient les 3 premieres cartes */
+
 .box1{
   display: flex;
   margin-left: 500;
@@ -223,10 +263,12 @@ a{
   justify-content: space-between;
   margin: 50px;
 }
-
 .box1 :first-child {
   align-self: center;
 }
+
+/* Box qui contient la deuxieme ligne de 3 cartes */
+
 .box2{
   display: flex;
   align-items: flex-start;
@@ -237,20 +279,43 @@ a{
 .box2 :first-child {
   align-self: center;
 }
+
+/* Derniere carte */
+
 .box3{
   display: flex;
   align-items: center ;
   justify-content: center;
   margin: 50px;
 }
-.case3{
-    display: center;
-    margin: auto;
-    width: 800px;
-    height : auto ;
-    margin-top: 30px;
-    text-align: justify;
+
+/* Carte du dessus */
+
+.card4 {
+  width: 700px;
+  height: 200px;
+  /*border-radius: 20px;*/
+  padding: 3px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
 }
+.card4_texte{
+  text-align: justify-all;
+  margin: auto;
+   width: 95%;
+}
+.card4__content {
+  background: rgb(5, 6, 45);
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+
+/* Pied de page */
 
 footer{
   marker-end: 100px;
@@ -260,7 +325,6 @@ li{
   text-align: center;
 }
 footer{
-    background: #000000;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -275,7 +339,7 @@ footer .social_icon, footer .menu{
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 footer .social_icon a{
@@ -324,59 +388,4 @@ footer p{
 .linkedin{
     width: 27px;
     height: 27px;
-}
-
-/* Carte du dessus */
-
-.card4 {
-  width: 700px;
-  height: 200px;
-  /*border-radius: 20px;*/
-  padding: 3px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  background-image: linear-gradient(rgb(81, 0, 255),rgb(128, 0, 113));
-  display: flex;
-  margin: auto;
-  margin-top: 80px;
-}
-.card4_texte{
-  text-align: justify-all;
-  margin: auto;
-   width: 95%;
-
-}
-.card4__content {
-  background: rgb(5, 6, 45);
-  border-radius: 0px;
-  width: 100%;
-  height: 100%;
-  text-align: justify;
-
-}
-
-
-/* Bouton en or */
-
-@keyframes animationOr {
- 0% {
-    background-color: gold;
-  }
-  33% {
-    background-color: #ffd700;
-  }
-  66% {
-    background-color: #e0a600;
-  }
-  100% {
-    background-color: gold;
-  }
-}
-
-.or {
-  font-size: 24px;
-  text-align: center;
-  padding: 20px;
-  background-color: gold;
-  color: #333;
-  animation: animationOr 2s infinite;
 }
