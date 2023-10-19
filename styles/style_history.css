@@ -50,6 +50,17 @@ transition-duration: 0.8s;
 opacity: 1;
 }
 
+#scroll-up{
+    width: 20%;
+  }
+  
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -130px;
+  opacity: 0.5;
+  }
 
 /* BODY */
 *{
