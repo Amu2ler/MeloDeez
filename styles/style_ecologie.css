@@ -40,7 +40,7 @@
 
 
 .box1 {
-    background-image: linear-gradient(to bottom, rgba(120, 28, 0, 0.555), rgba(153, 1, 120, 0.555));
+    background-image: linear-gradient(to right, rgba(120, 28, 0, 0.8), rgba(153, 1, 120, 0.8));
     width: 40%;
     height: 90%;
     padding: 20px;
@@ -52,8 +52,9 @@
     margin-top: 8%;
 }
 
+
 .box2 {
-    background-image: linear-gradient(to bottom, rgba(0, 135, 197, 0.555), rgba(19, 112, 0, 0.555));
+    background-image: linear-gradient(to right, rgba(0, 135, 197, 0.8), rgba(19, 112, 0, 0.8));
     width: 40%;
     height: 90%;
     padding: 20px;
@@ -66,13 +67,9 @@
 }
 
 
-
 .text {
     text-align: justify 
 }
-
-
-
 
 
 body {
@@ -89,7 +86,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/FondÉCO.jpg');
+    background-image: url('../img/FondÉCO2.jpg');
     background-size: cover;
     background-position: center;
     z-index: -2;
