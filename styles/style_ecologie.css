@@ -77,9 +77,20 @@ padding: 30px 0;
 .text-right {
     text-align: justify 
 }
-
+/*
 body {
     background-color: black;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-size: xx-normal;
+    text-align: center;
+}*/
+body {
+    background-image: url('.../img/FondÉCO1.png'), url('.../img/FondÉCO2.png');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     font-family: "Helvetica", sans-serif;
     font-size: xx-normal;
