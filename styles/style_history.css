@@ -127,7 +127,7 @@ body::before {
    z-index: -1;
    content: '';
    margin-top: 50px; 
-   height: 90rem;
+   height: 110rem;
 }
 
 
@@ -139,13 +139,29 @@ body::before {
 }
 
 .content1, .content2, .content3, .content4, .image {
-   width: 50%;
+   width: 55%;
    padding: 20px;
-   text-align: center;
+   text-align: justify;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   align-items: center;  
+}
+
+.content1,.content3 {
+   width: 65%;
+   padding: 20px;
+   text-align: justify;
+   margin-bottom : 7rem;
+   margin-right : 10rem;
+}
+
+.content2,.content4{
+   width: 65%;
+   padding: 20px;
+   text-align: justify;
+   margin-bottom : 7rem;
+   margin-left : 10rem;
 }
 
 .image {
@@ -153,6 +169,9 @@ body::before {
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-left : 2rem;
+   margin-right : 2rem;
+   margin-bottom : 7rem;
 }
 
 .timeline-item:nth-child(even) .content1,.timeline-item:nth-child(even) .content2,.timeline-item:nth-child(even) .content3,.timeline-item:nth-child(even) .content4 {
@@ -181,7 +200,7 @@ h2 {
 footer{
    position: relative;
    background: #000000;
-   min-height: 100px;
+   min-height: 10rem;
    padding: 20px 50px;
    display: flex;
    justify-content: center;
@@ -189,7 +208,7 @@ footer{
    flex-direction: column;
    z-index: -1;
 }
-   
+
 footer .social_icon, footer .menu{
    position: relative;
    display: flex;
