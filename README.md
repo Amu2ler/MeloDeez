@@ -75,17 +75,21 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran de la conformité de la page ...](w3c/environnement-verif.png)
 
+### Page Social
 
-### Présentation générale
+**Auteur : ROSE Mathéo**
 
-**Auteur : Nom Prénom**  
+Vérification W3C : [Détail ICI]()
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+![capture d'écran de la conformité de la page ...]()
 
-<br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
+### Page Ecologie
 
+**Auteur : BOUCHE Natan**
 
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fenvironnement.html)
+
+![capture d'écran de la conformité de la page ...](w3c/environnement-verif.png)
 
 ## Répartition du travail
 
