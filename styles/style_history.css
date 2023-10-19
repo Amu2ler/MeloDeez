@@ -118,16 +118,16 @@ a[href^="#"]{
 body::before {
    content: "";
    position: absolute;
-   top: 25%;
+   top: 40%;
    bottom: 0;
-   left: 50%;
+   left: 40.1rem;
    transform: translateX(-1px); /* Pour centrer la ligne */
    width: 5px;
    background: #ffffff;
    z-index: -1;
    content: '';
    margin-top: 50px; 
-   height: 110rem;
+   height: 100rem;
 }
 
 
@@ -194,13 +194,38 @@ h2 {
    margin-bottom: 10px;
 }
 
+.timeline-item::before {
+   content: "";
+   position: absolute;
+   width: 45px;
+   height: 45px;
+   background: #fff;
+   border-radius: 50%;
+   z-index: 1;
+}
+
+.timeline-item:nth-child(odd)::before {
+   left: 40rem;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.timeline-item:nth-child(even)::before {
+   left: 40rem;
+   top: 105%;
+   transform: translateY(-50%);
+}
+
+
 
 
 /* FOOTER */
-footer{
+footer {
    position: relative;
+   bottom: 0;
+   left: 0;
+   width: 100%;
    background: #000000;
-   min-height: 10rem;
    padding: 20px 50px;
    display: flex;
    justify-content: center;
