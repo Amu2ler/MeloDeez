@@ -140,9 +140,13 @@ body::before {
    margin: 0 40px; 
 }
 
-.content1, .content2, .content3, .content4, .image {
-   width: 55%;
+.content1, .content2, .content3, .content4 {
+   width: 75%;
    padding: 20px;
+   background-color: white;
+   color: #000000;
+   border-radius: 5px; /* Coins arrondis */
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Ombre légère */
    text-align: justify;
    display: flex;
    flex-direction: column;
@@ -195,6 +199,7 @@ h2 {
    font-size: large;
    margin-bottom: 10px;
 }
+
 
 
 .timeline-item:nth-child(odd)::before {
