@@ -127,10 +127,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 - RICHARD Florian (33%)
 
 ### Rapport économique
-- MULLER Arthur (40%)
-- ROSE Mathéo (20%)
-- RICHARD Florian (20%)
-- BOUCHE Natan (20%)
+- MULLER Arthur (100%)
 
 ### Traduction
 - MULLER Arthur (50%)
