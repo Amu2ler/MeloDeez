@@ -4,9 +4,9 @@ UE : SAÉ S1. 05-06 Recueil des besoins & découverte de l'environnement économ
 
 [Accueil du site](https://amu2ler.github.io/MeloDeez/) déposé sur Github
 
-[Accueil du site](https://melodeez-group-sae-1-5419f3e057d100f3ffa18d23fd72b3227f00c4cf54.gitlab.io) déposé sur Gitlab
+[Accueil du site](https://melodeez-artmuller75013-e9cdd787d732077808ece91724d81c624253a30.gitlab.io) déposé sur Gitlab
 
-[Accueil du site](https://amu2ler.github.io/MeloDeez/) déposé sur BitBucket
+[Accueil du site](https://test-arthur.bitbucket.io/) déposé sur BitBucket
 
  - - - - - - - - - - - - - - 
 ## Membres du groupe : 
