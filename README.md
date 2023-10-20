@@ -97,6 +97,16 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
  - - - - - - - - - - - - - - 
 
+### Zoning & Wireframe
+
+## Wireframe de la page offres 
+
+![capture d'écran du wireframe de la page ...](img/wireframe_Offres.png)
+
+## Zoning de la page offres 
+
+![capture d'écran du wireframe de la page ...](img/zoning-offres.png)
+
 ## Répartition du travail
 
 ### README
