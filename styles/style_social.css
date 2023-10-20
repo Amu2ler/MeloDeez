@@ -301,40 +301,51 @@ h1{
 }
 
 
-/*FOOTER*/
+/* Pied de page */
 
 footer{
-    position: relative;
-    bottom: 0;
-    background: #000000;
+  marker-end: 100px;
+  margin-top: 50px;
+}
+li{
+  text-align: center;
+}
+footer{
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: -1;
 }
 
 footer .social_icon, footer .menu{
     position: relative;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 footer .social_icon a{
     font-size: 2em;
-    color: #fff;
+    color: #ffff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
 }
 
-footer .social_icon a:hover{
+footer .social_icon .box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}
+footer a:hover{
     transform: translateY(-10px)
 }
 
