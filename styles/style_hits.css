@@ -82,48 +82,55 @@ iframe {
 
 .titre1{
     display: flex;
-    margin-left: 42%;
+    margin: auto;
+    justify-content: center;
 }
 
 .titre2{
     display: flex;
-    margin-left: 45%;
+    margin: auto;
+    justify-content: center;
 }
 .Titre1{
     display: flex;
     margin: auto;
     justify-content: center;
-  }
+}
 
 .explication {
-    text-align: center;
+    display: flex;
     margin: 0 auto;
+    justify-content: center;
     max-width: 70%;
 }
 
 .explication1 {
-    text-align: center;
+    display: flex;
     margin: 0 auto;
+    justify-content: center;
     max-width: 80%;
 }
 
 .explication2 {
     text-align: center;
     display: flex;
-    margin-left: 15%;
+    margin: auto;
+    justify-content: center;
     max-width: 80%;
 }
 
 .explication3 {
     text-align: center;
     display: flex;
-    margin-left: 5%;
+    margin: auto;
+    justify-content: center;
     max-width: 100%;
 }
 
 .top1 {
     display: flex;
-    margin-left: 40%;
+    margin: auto;
+    justify-content: center;
 
 }
 
