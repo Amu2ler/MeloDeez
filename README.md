@@ -85,11 +85,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ### Page Ecologie
 
-**Auteur : MULLER Arthur & BOUCHE Natan**
+**Auteur : MULLER Arthur**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Famu2ler.github.io%2FMeloDeez%2Fpages%2Fecologie.html)
 
 ![capture d'écran de la conformité de la page ...](w3c/ecologie-verif.png)
+
+ - - - - - - - - - - - - - - 
 
 ## Répartition du travail
 
@@ -113,7 +115,6 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 - RICHARD Florian (25%)
 - BOUCHE Natan (25%)
 
-
 ### QUESTIONNAIRE 1
 - MULLER Arthur (25%)
 - ROSE Mathéo (25%)
@@ -126,19 +127,16 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 - RICHARD Florian (33%)
 
 ### Rapport économique
-
 - MULLER Arthur (40%)
 - ROSE Mathéo (20%)
 - RICHARD Florian (20%)
 - BOUCHE Natan (20%)
 
 ### Traduction
-
 - MULLER Arthur (50%)
 - BOUCHE Natan (50%)
 
 ### Développement site
-
 - ROSE Mathéo
   - Page d’accueil
   - Page Offres
