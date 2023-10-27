@@ -4,9 +4,9 @@ UE : SAÉ S1. 05-06 Recueil des besoins & découverte de l'environnement économ
 
 [Accueil du site](https://amu2ler.github.io/MeloDeez/) déposé sur Github
 
-[Accueil du site](https://melodeez-group-sae-1-5419f3e057d100f3ffa18d23fd72b3227f00c4cf54.gitlab.io) déposé sur Gitlab
+[Accueil du site](https://melodeez-artmuller75013-e9cdd787d732077808ece91724d81c624253a30.gitlab.io) déposé sur Gitlab
 
-[Accueil du site](https://amu2ler.github.io/MeloDeez/) déposé sur BitBucket
+[Accueil du site](https://test-arthur.bitbucket.io/) déposé sur BitBucket
 
  - - - - - - - - - - - - - - 
 ## Membres du groupe : 
@@ -97,6 +97,16 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
  - - - - - - - - - - - - - - 
 
+### Zoning & Wireframe
+
+## Wireframe de la page offres 
+
+![capture d'écran du wireframe de la page ...](img/wireframe_Offres.png)
+
+## Zoning de la page offres 
+
+![capture d'écran du wireframe de la page ...](img/zoning-offres.png)
+
 ## Répartition du travail
 
 ### README
@@ -131,10 +141,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 - RICHARD Florian (33%)
 
 ### Rapport économique
-- MULLER Arthur (40%)
-- ROSE Mathéo (20%)
-- RICHARD Florian (20%)
-- BOUCHE Natan (20%)
+- MULLER Arthur (100%)
 
 ### Traduction
 - MULLER Arthur (50%)
